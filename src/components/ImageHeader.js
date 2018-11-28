@@ -5,12 +5,14 @@ const imageHeader = () => {
     <Row>
       <img
         className="wallpaper"
-        src="/image/vigne.png"
-        alt="japan flag"
+        src=""
+        alt=""
         style={{
           width: "100%",
-          height: "900px",
-          backgroundSize: "cover"
+          height: "140vh",
+          backgroundImage: "url(/image/vigne.png)",
+          backgroundSize: "cover",
+          backgroundAttachment: "fixed"
         }}
       />
     </Row>
