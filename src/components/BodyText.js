@@ -1,20 +1,20 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-const bodyText = () => {
+const bodyText = ({titrePrinc, titre, text, pictureLeft, pictureRight, altLeft, altRight}) => {
   return (
     <div>
       <Row>
-        <Col sm="4">
+        <Col xs="6" sm="4">
           <img
-            class="image"
-            src="image/raisin vert.png"
-            alt="raisin vert"
-            style={{ height: "620px", width: "535px", position: "relative" }}
+            className="image"
+            src={pictureLeft}
+            alt={altLeft}
+            style={{ height: "620px", width: "440px", position: "relative" }}
           />
         </Col>
         <Col
-          sm="4"
+          xs="6" sm="4"
           style={{
             marginTop: "-255px",
             backgroundColor: "white",
@@ -22,108 +22,19 @@ const bodyText = () => {
             textAlign: "center"
           }}
         >
-          <h1 style={{ marginTop: "25px" }}>Champagne Patrick Regnault</h1>
-          <h2 style={{ marginTop: "140px" }}> un peu d'histoire</h2>
+          <h1 style={{ marginTop: "25px" }}>{titrePrinc}</h1>
+          <h2 style={{ marginTop: "300px", marginBottom:"100px" }} id={titre}> {titre}</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-            risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing
-            nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas
-            ligula massa, varius a, semper congue, euismod non, mi. Proin
-            porttitor, orci nec nonummy molestie, enim est eleifend mi, non
-            fermentum diam nisl sit amet erat.
-          </p>
+          <p>{text}</p>
         </Col>
-        <Col sm="4" style={{ paddingLeft: "0px" }}>
+        <Col xs="6" sm="4" style={{ paddingLeft: "0px" }}>
           <img
-            class="image"
-            src="image/raisin noir.jpg"
-            alt="raisin noir"
+            className="image"
+            src={pictureRight}
+            alt={altRight}
             style={{
               height: "620px",
-              width: "530px",
-              position: "relative",
-              paddingLeft: "0px"
-            }}
-          />
-        </Col>
-        <Col sm="4">
-          <img
-            class="image"
-            src="image/raisin vert.png"
-            alt="raisin vert"
-            style={{ height: "620px", width: "535px", position: "relative" }}
-          />
-        </Col>
-        <Col
-          sm="4"
-          style={{
-            marginTop: "-255px",
-            backgroundColor: "white",
-            // border: "solid",
-            textAlign: "center"
-          }}
-        >
-          <h2 style={{ marginTop: "275px" }}> un peu d'histoire</h2>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-            risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing
-            nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas
-            ligula massa, varius a, semper congue, euismod non, mi. Proin
-            porttitor, orci nec nonummy molestie, enim est eleifend mi, non
-            fermentum diam nisl sit amet erat.
-          </p>
-        </Col>
-        <Col sm="4" style={{ paddingLeft: "0px" }}>
-          <img
-            class="image"
-            src="image/raisin noir.jpg"
-            alt="raisin noir"
-            style={{
-              height: "620px",
-              width: "530px",
-              position: "relative",
-              paddingLeft: "0px"
-            }}
-          />
-        </Col>
-        <Col sm="4">
-          <img
-            class="image"
-            src="image/raisin vert.png"
-            alt="raisin vert"
-            style={{ height: "620px", width: "535px", position: "relative" }}
-          />
-        </Col>
-        <Col
-          sm="4"
-          style={{
-            marginTop: "-255px",
-            backgroundColor: "white",
-            // border: "solid",
-            textAlign: "center"
-          }}
-        >
-          <h2 style={{ marginTop: "275px" }}> un peu d'histoire</h2>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-            risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing
-            nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas
-            ligula massa, varius a, semper congue, euismod non, mi. Proin
-            porttitor, orci nec nonummy molestie, enim est eleifend mi, non
-            fermentum diam nisl sit amet erat.
-          </p>
-        </Col>
-        <Col sm="4" style={{ paddingLeft: "0px" }}>
-          <img
-            class="image"
-            src="image/raisin noir.jpg"
-            alt="raisin noir"
-            style={{
-              height: "620px",
-              width: "530px",
+              width: "440px",
               position: "relative",
               paddingLeft: "0px"
             }}
