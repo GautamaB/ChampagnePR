@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-const bodyText = ({
+const fisrtArticle = ({
   titrePrinc,
   titre,
   text,
@@ -15,8 +15,8 @@ const bodyText = ({
       <Col xs="6" sm="4">
         <img
           className="image"
-          src={pictureLeft}
-          alt={altLeft}
+          src="image/raisin vert.png"
+          alt="raisin vert"
           style={{
             height: "600px",
             width: "420px",
@@ -30,20 +30,28 @@ const bodyText = ({
         xs="6"
         sm="4"
         style={{
+          marginTop: "-255px",
           backgroundColor: "white",
           borderStyle: "double",
           borderWidth: "5px",
           borderColor: "#B0A64D",
           textAlign: "center",
-          borderTop: "none",
           borderBottom: "none"
         }}
       >
-        <div id={titre} style={{ paddingTop: "65px", marginTop: "-65px" }} />
+        <h1 style={{ marginTop: "25px", color: "#8B803E" }}>
+          Champagne Patrick Regnault
+        </h1>
+        <div id="Un peu d'histoire" />
         <h2
-          style={{ marginTop: "15px", marginBottom: "100px", color: "#387001" }}
+          style={{
+            marginTop: "140px",
+            marginBottom: "100px",
+            color: "#387001"
+          }}
+          id="Un peu d'histoire"
         >
-          {titre}
+          Un peu d'histoire
         </h2>
 
         <p
@@ -53,14 +61,19 @@ const bodyText = ({
             paddingRight: "15px"
           }}
         >
-          {text}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+          risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec,
+          ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula
+          massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci
+          nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl
+          sit amet erat.
         </p>
       </Col>
       <Col xs="6" sm="4" style={{ paddingLeft: "0px" }}>
         <img
           className="image"
-          src={pictureRight}
-          alt={altRight}
+          src="image/raisin noir.jpg"
+          alt="raisin noir"
           style={{
             height: "600px",
             width: "420px",
@@ -75,4 +88,4 @@ const bodyText = ({
   );
 };
 
-export default bodyText;
+export default fisrtArticle;
