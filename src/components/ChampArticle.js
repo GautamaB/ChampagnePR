@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-const bodyText = ({
+const ChampArticle = ({
   titrePrinc,
   titre,
   text,
@@ -15,8 +15,8 @@ const bodyText = ({
       <Col xs="6" sm="4">
         <img
           className="image"
-          src={pictureLeft}
-          alt={altLeft}
+          src="image/raisin vert.png"
+          alt="raisin vert"
           style={{
             height: "600px",
             width: "420px",
@@ -35,15 +35,18 @@ const bodyText = ({
           borderWidth: "5px",
           borderColor: "#B0A64D",
           textAlign: "center",
-          borderTop: "none",
-          borderBottom: "none"
+          borderTop: "none"
         }}
       >
-        <div id={titre} style={{ paddingTop: "65px", marginTop: "-65px" }} />
+        <div id="Le Champagne" />
         <h2
-          style={{ marginTop: "15px", marginBottom: "100px", color: "#387001" }}
+          style={{
+            marginTop: "40px",
+            marginBottom: "100px",
+            color: "#387001"
+          }}
         >
-          {titre}
+          Le Champagne
         </h2>
 
         <p
@@ -53,14 +56,19 @@ const bodyText = ({
             paddingRight: "15px"
           }}
         >
-          {text}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+          risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec,
+          ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula
+          massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci
+          nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl
+          sit amet erat.
         </p>
       </Col>
       <Col xs="6" sm="4" style={{ paddingLeft: "0px" }}>
         <img
           className="image"
-          src={pictureRight}
-          alt={altRight}
+          src="image/raisin noir.jpg"
+          alt="raisin noir"
           style={{
             height: "600px",
             width: "420px",
@@ -75,4 +83,4 @@ const bodyText = ({
   );
 };
 
-export default bodyText;
+export default ChampArticle;
