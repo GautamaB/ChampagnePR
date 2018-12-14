@@ -49,7 +49,6 @@ const fisrtArticle = ({
             marginBottom: "100px",
             color: "#387001"
           }}
-          id="Un peu d'histoire"
         >
           Un peu d'histoire
         </h2>

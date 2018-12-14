@@ -24,6 +24,7 @@ export default class NavBar extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     return (
       <Row>
@@ -35,11 +36,7 @@ export default class NavBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink
-                  href="#Un peu d'histoire"
-                  textDecoration="none"
-                  style={{ color: "#97d60c" }}
-                >
+                <NavLink href="#Un peu d'histoire" style={{ color: "#97d60c" }}>
                   Un peu d'histoire
                 </NavLink>
               </NavItem>
