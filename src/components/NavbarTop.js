@@ -51,6 +51,27 @@ export default class NavBar extends React.Component {
                   Le Champagne
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#Les Bouteilles de Patrick Regnault"
+                  style={{ color: "#97d60c" }}
+                >
+                  Les Bouteilles de Patrick Regnault
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#Les Bouteilles de Stéphane Regnault"
+                  style={{ color: "#97d60c" }}
+                >
+                  Les Bouteilles de Stéphane Regnault
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#Contact" style={{ color: "#97d60c" }}>
+                  Contact
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>

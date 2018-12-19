@@ -38,10 +38,10 @@ const ChampArticle = ({
           borderTop: "none"
         }}
       >
-        <div id="Le Champagne" />
+        <div style={{ paddingBottom: "35px" }} id="Le Champagne" />
         <h2
           style={{
-            marginTop: "60px",
+            marginTop: "20px",
             marginBottom: "100px",
             color: "#387001"
           }}

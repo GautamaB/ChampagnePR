@@ -19,7 +19,8 @@ const footer = () => {
         }}
       />
       <p style={{ border: "3px solid #D5B23C" }} />
-      <h1 style={{ marginLeft: "15px" }}>Nos coordonées : </h1>
+      <div style={{ paddingBottom: "65px" }} id="Contact" />
+      <h1 style={{ marginLeft: "15px" }}>Contact : </h1>
       <p style={{ marginLeft: "35px" }}>
         REGNAULT PATRICK
         <br />

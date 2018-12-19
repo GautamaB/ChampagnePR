@@ -4,6 +4,10 @@ import ModalChamPr from "./ModalChamPr";
 const bouteille = () => {
   return (
     <div>
+      <div
+        style={{ paddingBottom: "35px" }}
+        id="Les Bouteilles de Patrick Regnault"
+      />
       <h1
         style={{
           size: "20px",

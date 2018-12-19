@@ -4,6 +4,10 @@ import ModalChamSr from "./ModalChamSr";
 const bouteille = () => {
   return (
     <div>
+      <div
+        style={{ paddingBottom: "35px" }}
+        id="Les Bouteilles de Stéphane Regnault"
+      />
       <h1
         style={{
           size: "20px",

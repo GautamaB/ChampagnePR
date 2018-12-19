@@ -39,10 +39,10 @@ const VinArticle = ({
           borderBottom: "none"
         }}
       >
-        <div id="Le Vin" />
+        <div style={{ paddingBottom: "55px" }} id="Le Vin" />
         <h2
           style={{
-            marginTop: "60px",
+            // marginTop: "20px",
             marginBottom: "100px",
             color: "#387001"
           }}
