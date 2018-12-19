@@ -15,7 +15,7 @@ const VinArticle = ({
       <Col xs="6" sm="4">
         <img
           className="image"
-          src="image/raisin vert.png"
+          src="/image/raisin vert.png"
           alt="raisin vert"
           style={{
             height: "600px",
@@ -42,7 +42,7 @@ const VinArticle = ({
         <div id="Le Vin" />
         <h2
           style={{
-            marginTop: "40px",
+            marginTop: "60px",
             marginBottom: "100px",
             color: "#387001"
           }}
@@ -68,7 +68,7 @@ const VinArticle = ({
       <Col xs="6" sm="4" style={{ paddingLeft: "0px" }}>
         <img
           className="image"
-          src="image/raisin noir.jpg"
+          src="/image/raisin noir.jpg"
           alt="raisin noir"
           style={{
             height: "600px",

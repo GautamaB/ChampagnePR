@@ -15,7 +15,7 @@ const fisrtArticle = ({
       <Col xs="6" sm="4">
         <img
           className="image"
-          src="image/raisin vert.png"
+          src="/image/raisin vert.png"
           alt="raisin vert"
           style={{
             height: "600px",
@@ -45,7 +45,7 @@ const fisrtArticle = ({
         <div id="Un peu d'histoire" />
         <h2
           style={{
-            marginTop: "140px",
+            marginTop: "160px",
             marginBottom: "100px",
             color: "#387001"
           }}
@@ -71,7 +71,7 @@ const fisrtArticle = ({
       <Col xs="6" sm="4" style={{ paddingLeft: "0px" }}>
         <img
           className="image"
-          src="image/raisin noir.jpg"
+          src="/image/raisin noir.jpg"
           alt="raisin noir"
           style={{
             height: "600px",
