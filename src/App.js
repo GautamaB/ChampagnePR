@@ -8,6 +8,7 @@ import VinArticle from "./components/VinArticle";
 import ChampArticle from "./components/ChampArticle";
 import ChampPr from "./components/ChampPr";
 import ChampSr from "./components/ChampSr";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <ChampArticle />
         <ChampPr />
         <ChampSr />
+        <Footer />
       </div>
     );
   }
