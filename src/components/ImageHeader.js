@@ -4,7 +4,6 @@ const imageHeader = () => {
   return (
     <Row>
       <img
-        className="wallpaper"
         alt=""
         style={{
           width: "100%",
