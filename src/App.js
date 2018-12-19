@@ -6,6 +6,8 @@ import FirstArticle from "./components/FirstArticle";
 import NavbarTop from "./components/NavbarTop";
 import VinArticle from "./components/VinArticle";
 import ChampArticle from "./components/ChampArticle";
+import ChampPr from "./components/ChampPr";
+import ChampSr from "./components/ChampSr";
 
 class App extends Component {
   render() {
@@ -16,6 +18,8 @@ class App extends Component {
         <FirstArticle />
         <VinArticle />
         <ChampArticle />
+        <ChampPr />
+        <ChampSr />
       </div>
     );
   }
