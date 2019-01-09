@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Collapse,
   Navbar,
@@ -36,18 +37,59 @@ export default class NavBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#Un peu d'histoire" style={{ color: "#97d60c" }}>
+                <NavLink
+                  href="#Un peu d'histoire"
+                  style={{ fontSize: "12px", color: "#97d60c" }}
+                >
                   Un peu d'histoire
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Le Vin" style={{ color: "#97d60c" }}>
+                <NavLink
+                  href="#Le Vin"
+                  style={{ fontSize: "12px", color: "#97d60c" }}
+                >
                   Le Vin
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Le Champagne" style={{ color: "#97d60c" }}>
+                <NavLink
+                  href="#Le Champagne"
+                  style={{ fontSize: "12px", color: "#97d60c" }}
+                >
                   Le Champagne
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#Les Bouteilles de Patrick Regnault"
+                  style={{ fontSize: "12px", color: "#97d60c" }}
+                >
+                  Les Bouteilles de Patrick Regnault
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#Les Bouteilles de Stéphane Regnault"
+                  style={{ fontSize: "12px", color: "#97d60c" }}
+                >
+                  Les Bouteilles de Stéphane Regnault
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#Gallery"
+                  style={{ fontSize: "12px", color: "#97d60c" }}
+                >
+                  Gallery
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#Contact"
+                  style={{ fontSize: "12px", color: "#97d60c" }}
+                >
+                  Contact
                 </NavLink>
               </NavItem>
             </Nav>
