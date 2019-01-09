@@ -2,7 +2,7 @@ import React from "react";
 import Gallery from "react-photo-gallery";
 import Lightbox from "react-images";
 
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 
 const photos = [
   {
