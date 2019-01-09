@@ -39,7 +39,7 @@ const fisrtArticle = ({
           borderBottom: "none"
         }}
       >
-        <h1 style={{ marginTop: "25px", color: "#8B803E" }}>
+        <h1 style={{ marginTop: "5px", color: "#8B803E" }}>
           Champagne Patrick Regnault
         </h1>
         <div id="Un peu d'histoire" />

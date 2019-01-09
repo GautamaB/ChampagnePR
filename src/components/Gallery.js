@@ -86,7 +86,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Container>
-        <div style={{ paddingBottom: "35px" }} id="Gallery" />
+        <div style={{ paddingBottom: "35px" }} id="Galerie Photos" />
         <h1
           style={{
             size: "20px",
@@ -95,7 +95,7 @@ export default class App extends React.Component {
             marginTop: "25px"
           }}
         >
-          Gallery
+          Galerie Photos
         </h1>
         <Gallery photos={photos} onClick={this.openLightbox} />
         <Lightbox

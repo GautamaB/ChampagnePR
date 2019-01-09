@@ -22,7 +22,8 @@ const VinArticle = ({
             width: "420px",
             position: "relative",
             borderRadius: "25px",
-            border: "10px solid white"
+            border: "10px solid white",
+            marginTop: "55px"
           }}
         />
       </Col>
@@ -39,17 +40,15 @@ const VinArticle = ({
           borderBottom: "none"
         }}
       >
-        <div style={{ paddingBottom: "55px" }} id="Le Vin" />
+        <div style={{ paddingBottom: "75px" }} id="Le Vin" />
         <h2
           style={{
-            // marginTop: "20px",
             marginBottom: "100px",
             color: "#387001"
           }}
         >
           Le Vin
         </h2>
-
         <p
           style={{
             textAlign: "justify",
@@ -76,7 +75,8 @@ const VinArticle = ({
             position: "relative",
             paddingLeft: "0px",
             borderRadius: "25px",
-            border: "10px solid white"
+            border: "10px solid white",
+            marginTop: "55px"
           }}
         />
       </Col>

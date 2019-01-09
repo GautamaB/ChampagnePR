@@ -78,10 +78,10 @@ export default class NavBar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#Gallery"
+                  href="#Galerie Photos"
                   style={{ fontSize: "12px", color: "#97d60c" }}
                 >
-                  Gallery
+                  Galerie Photos
                 </NavLink>
               </NavItem>
               <NavItem>
