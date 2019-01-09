@@ -22,7 +22,8 @@ const ChampArticle = ({
             width: "420px",
             position: "relative",
             borderRadius: "25px",
-            border: "10px solid white"
+            border: "10px solid white",
+            marginTop: "55px"
           }}
         />
       </Col>
@@ -38,7 +39,7 @@ const ChampArticle = ({
           borderTop: "none"
         }}
       >
-        <div style={{ paddingBottom: "35px" }} id="Le Champagne" />
+        <div style={{ paddingBottom: "75px" }} id="Le Champagne" />
         <h2
           style={{
             marginTop: "20px",
@@ -75,7 +76,8 @@ const ChampArticle = ({
             position: "relative",
             paddingLeft: "0px",
             borderRadius: "25px",
-            border: "10px solid white"
+            border: "10px solid white",
+            marginTop: "55px"
           }}
         />
       </Col>
