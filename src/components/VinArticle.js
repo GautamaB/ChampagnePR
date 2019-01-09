@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-const fisrtArticle = ({
+const VinArticle = ({
   titrePrinc,
   titre,
   text,
@@ -30,27 +30,24 @@ const fisrtArticle = ({
         xs="6"
         sm="4"
         style={{
-          marginTop: "-255px",
           backgroundColor: "white",
           borderStyle: "double",
           borderWidth: "5px",
           borderColor: "#B0A64D",
           textAlign: "center",
+          borderTop: "none",
           borderBottom: "none"
         }}
       >
-        <h1 style={{ marginTop: "25px", color: "#8B803E" }}>
-          Champagne Patrick Regnault
-        </h1>
-        <div id="Un peu d'histoire" />
+        <div style={{ paddingBottom: "55px" }} id="Le Vin" />
         <h2
           style={{
-            marginTop: "160px",
+            // marginTop: "20px",
             marginBottom: "100px",
             color: "#387001"
           }}
         >
-          Un peu d'histoire
+          Le Vin
         </h2>
 
         <p
@@ -87,4 +84,4 @@ const fisrtArticle = ({
   );
 };
 
-export default fisrtArticle;
+export default VinArticle;
