@@ -1,35 +1,12 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-const ChampArticle = ({
-  titrePrinc,
-  titre,
-  text,
-  pictureLeft,
-  pictureRight,
-  altLeft,
-  altRight
-}) => {
+const ChampArticle = () => {
   return (
     <Row>
-      <Col xs="6" sm="4">
-        <img
-          className="image"
-          src="/image/raisin vert.png"
-          alt="raisin vert"
-          style={{
-            height: "600px",
-            width: "420px",
-            position: "relative",
-            borderRadius: "25px",
-            border: "10px solid white",
-            marginTop: "55px"
-          }}
-        />
-      </Col>
       <Col
-        xs="6"
-        sm="4"
+        xs={{ size: 10 }}
+        md={{ size: 4, order: 2 }}
         style={{
           backgroundColor: "white",
           borderStyle: "double",
@@ -39,10 +16,10 @@ const ChampArticle = ({
           borderTop: "none"
         }}
       >
-        <div style={{ paddingBottom: "75px" }} id="Le Champagne" />
+        <div style={{ paddingBottom: "55px" }} id="Le Champagne" />
         <h2
           style={{
-            marginTop: "20px",
+            marginTop: "10px",
             marginBottom: "100px",
             color: "#387001"
           }}
@@ -65,19 +42,33 @@ const ChampArticle = ({
           sit amet erat.
         </p>
       </Col>
-      <Col xs="6" sm="4" style={{ paddingLeft: "0px" }}>
+      <Col xs="12" md={{ size: 4, order: 1 }}>
+        <img
+          className="image"
+          src="/image/raisin vert.png"
+          alt="raisin vert"
+          style={{
+            width: "100%",
+            height: "90%",
+            display: "block",
+            borderRadius: "35px",
+            border: "20px solid white",
+            marginTop: "45px"
+          }}
+        />
+      </Col>
+      <Col xs="12" md={{ size: 4, order: 3 }}>
         <img
           className="image"
           src="/image/raisin noir.jpg"
           alt="raisin noir"
           style={{
-            height: "600px",
-            width: "420px",
-            position: "relative",
-            paddingLeft: "0px",
-            borderRadius: "25px",
-            border: "10px solid white",
-            marginTop: "55px"
+            width: "100%",
+            height: "90%",
+            display: "block",
+            borderRadius: "35px",
+            border: "20px solid white",
+            marginTop: "45px"
           }}
         />
       </Col>

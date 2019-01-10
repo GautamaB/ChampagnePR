@@ -1,34 +1,12 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-const fisrtArticle = ({
-  titrePrinc,
-  titre,
-  text,
-  pictureLeft,
-  pictureRight,
-  altLeft,
-  altRight
-}) => {
+const fisrtArticle = () => {
   return (
     <Row>
-      <Col xs="6" sm="4">
-        <img
-          className="image"
-          src="/image/raisin vert.png"
-          alt="raisin vert"
-          style={{
-            height: "600px",
-            width: "420px",
-            position: "relative",
-            borderRadius: "25px",
-            border: "10px solid white"
-          }}
-        />
-      </Col>
       <Col
-        xs="6"
-        sm="4"
+        xs={{ size: 10 }}
+        md={{ size: 4, order: 2 }}
         style={{
           marginTop: "-255px",
           backgroundColor: "white",
@@ -68,18 +46,31 @@ const fisrtArticle = ({
           sit amet erat.
         </p>
       </Col>
-      <Col xs="6" sm="4" style={{ paddingLeft: "0px" }}>
+      <Col xs="12" md={{ size: 4, order: 1 }}>
+        <img
+          className="image"
+          src="/image/raisin vert.png"
+          alt="raisin vert"
+          style={{
+            width: "100%",
+            height: "100%",
+            display: "block",
+            borderRadius: "35px",
+            border: "20px solid white"
+          }}
+        />
+      </Col>
+      <Col xs="12" md={{ size: 4, order: 3 }}>
         <img
           className="image"
           src="/image/raisin noir.jpg"
           alt="raisin noir"
           style={{
-            height: "600px",
-            width: "420px",
-            position: "relative",
-            paddingLeft: "0px",
-            borderRadius: "25px",
-            border: "10px solid white"
+            width: "100%",
+            height: "100%",
+            display: "block",
+            borderRadius: "35px",
+            border: "20px solid white"
           }}
         />
       </Col>

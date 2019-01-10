@@ -1,8 +1,10 @@
 import React from "react";
-import { Row } from "reactstrap";
+import { Row, Col } from "reactstrap";
+
 const imageHeader = () => {
   return (
     <Row>
+      {/* <Col xs="12" md="12"> */}
       <img
         alt=""
         style={{
@@ -10,9 +12,11 @@ const imageHeader = () => {
           height: "140vh",
           backgroundImage: "url(/image/vigne.png)",
           backgroundSize: "cover",
-          backgroundAttachment: "fixed"
+          backgroundAttachment: "fixed",
+          display: "block"
         }}
       />
+      {/* </Col> */}
     </Row>
   );
 };
