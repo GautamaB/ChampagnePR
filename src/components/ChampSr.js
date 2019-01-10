@@ -1,6 +1,8 @@
 import React from "react";
 import ModalChamSr from "./ModalChamSr";
 
+import { Container, Row, Col } from "reactstrap";
+
 const bouteille = () => {
   return (
     <div>
@@ -13,12 +15,29 @@ const bouteille = () => {
           size: "20px",
           textAlign: "center",
           color: "#D5B23C",
-          marginTop: "25px"
+          marginTop: "25px",
+          marginBottom: "25px"
         }}
       >
         Les Bouteilles de Stéphane Regnault
       </h1>
-      <img
+      <Container>
+        <Row>
+          <Col xs="12" md={{ size: 3, offset: 1 }}>
+            <img src="/image/champagne1.jpg" alt="champagne" style={{}} />
+            <ModalChamSr />
+          </Col>
+          <Col xs="12" md={{ size: 3, offset: 1 }}>
+            <img src="/image/champagne2.jpg" alt="champagne" style={{}} />
+            <ModalChamSr />
+          </Col>
+          <Col xs="12" md={{ size: 3, offset: 1 }}>
+            <img src="/image/champagne3.jpg" alt="champagne" style={{}} />
+            <ModalChamSr />
+          </Col>
+        </Row>
+      </Container>
+      {/* <img
         src="/image/bouteille.jpg"
         alt="bouteille de Patrick Regnault"
         style={{
@@ -28,8 +47,7 @@ const bouteille = () => {
           marginRight: "auto",
           display: "block"
         }}
-      />
-      <ModalChamSr />
+      /> */}
     </div>
   );
 };
