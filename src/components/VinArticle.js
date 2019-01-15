@@ -5,8 +5,8 @@ const VinArticle = () => {
   return (
     <Row>
       <Col
-        xs={{ size: 10 }}
-        md={{ size: 4, order: 2 }}
+        xs={{ size: 10, offset: 1 }}
+        md={{ size: 4, order: 2, offset: 0 }}
         style={{
           backgroundColor: "white",
           borderStyle: "double",

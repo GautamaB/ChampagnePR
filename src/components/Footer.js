@@ -24,9 +24,12 @@ const footer = () => {
       <p style={{ border: "3px solid #D5B23C" }} />
       <Container>
         <Row>
-          <Col>
+          <Col
+            xs={{ size: 10, order: 1 }}
+            md={{ size: 5, offset: 1, order: 1 }}
+          >
             <div style={{ paddingBottom: "65px" }} id="Contact" />
-            <h1 style={{ marginLeft: "15px" }}>Contact : </h1>
+            <h1>Contact : </h1>
             <p style={{ marginLeft: "20px" }}>
               REGNAULT PATRICK
               <br />
@@ -40,7 +43,10 @@ const footer = () => {
             </p>
             <Form />
           </Col>
-          <Col>
+          <Col
+            xs={{ size: 10, order: 2 }}
+            md={{ size: 5, offset: 1, order: 2 }}
+          >
             <div style={{ marginTop: "85px" }}>
               <GoogleMap />
             </div>

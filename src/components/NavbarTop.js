@@ -29,7 +29,7 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <Row>
-        <Navbar color="dark" light fixed={`top`} expand="md">
+        <Navbar color="white" light fixed={`top`} expand="md">
           <NavbarBrand href="/" style={{ color: "#D5B23C" }}>
             Champagne Regnault
           </NavbarBrand>
