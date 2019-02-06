@@ -10,6 +10,8 @@ import ChampPr from "./components/ChampPr";
 import ChampSr from "./components/ChampSr";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
+import Articles from "./components/Articles";
+import ImageParallaxReact from "./components/ImageParallaxReact";
 
 class App extends Component {
   render() {
@@ -17,9 +19,11 @@ class App extends Component {
       <div>
         <NavbarTop />
         <ImageHeader />
-        <FirstArticle />
+        {/* <FirstArticle />
         <VinArticle />
-        <ChampArticle />
+        <ChampArticle /> */}
+        {/* <Articles /> */}
+        <ImageParallaxReact />
         <ChampPr />
         <ChampSr />
         <Gallery />
