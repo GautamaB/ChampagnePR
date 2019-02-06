@@ -38,26 +38,10 @@ export default class NavBar extends React.Component {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink
-                  href="#Un peu d'histoire"
+                  href="#Une viticulture durable et respectueuse de l'environnement"
                   style={{ fontSize: "12px", color: "#97d60c" }}
                 >
-                  Un peu d'histoire
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="#Le Vin"
-                  style={{ fontSize: "12px", color: "#97d60c" }}
-                >
-                  Le Vin
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="#Le Champagne"
-                  style={{ fontSize: "12px", color: "#97d60c" }}
-                >
-                  Le Champagne
+                  Une viticulture durable et respectueuse de l'environnement{" "}
                 </NavLink>
               </NavItem>
               <NavItem>

@@ -92,7 +92,8 @@ export default class App extends React.Component {
             size: "20px",
             textAlign: "center",
             color: "#D5B23C",
-            marginTop: "25px"
+            marginTop: "25px",
+            marginBottom: "25px"
           }}
         >
           Galerie Photos

@@ -37,7 +37,6 @@ const ImageParallaxReact = () => (
           alt=""
           style={{
             marginTop: "55px",
-            marginBottom: "55px",
             height: "105px",
             display: "block",
             marginLeft: "auto",
@@ -45,10 +44,17 @@ const ImageParallaxReact = () => (
             width: "50%"
           }}
         />
+        <br />
+        <br />
+        <div
+          id="Une viticulture durable et respectueuse de l'environnement"
+          style={{ marginBottom: "5px" }}
+        />
+
         <h1
           style={{
             textAlign: "center",
-            marginTop: "110px",
+            marginTop: "60px",
             fontSize: "26px",
             color: "#D5B23C"
           }}
