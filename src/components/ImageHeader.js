@@ -11,7 +11,7 @@ const imageHeader = () => {
             width: "100%",
             marginLeft: "auto",
             marginRight: "auto",
-            height: "110vh",
+            height: "150vh",
             backgroundImage: "url(/image/cover.jpg)",
             backgroundSize: "cover",
             backgroundAttachment: "fixed",
