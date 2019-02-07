@@ -18,6 +18,7 @@ const footer = () => {
           marginLeft: "auto",
           marginRight: "auto",
           display: "block",
+          marginTop: "25px",
           marginBottom: "-50px"
         }}
       />

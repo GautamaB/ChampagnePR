@@ -11,8 +11,8 @@ const imageHeader = () => {
             width: "100%",
             marginLeft: "auto",
             marginRight: "auto",
-            height: "140vh",
-            backgroundImage: "url(/image/vigne.png)",
+            height: "150vh",
+            backgroundImage: "url(/image/cover.jpg)",
             backgroundSize: "cover",
             backgroundAttachment: "fixed",
             display: "block"

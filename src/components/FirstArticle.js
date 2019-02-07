@@ -5,7 +5,7 @@ const fisrtArticle = () => {
   return (
     <Row>
       <Col
-        xs={{ size: 10, offset: 1 }}
+        xs={{ size: 10 }}
         md={{ size: 4, order: 2, offset: 0 }}
         style={{
           marginTop: "-255px",
