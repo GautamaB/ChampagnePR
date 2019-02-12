@@ -22,19 +22,39 @@ const bouteille = () => {
         >
           Les Bouteilles de Stéphane Regnault
         </h1>
-        <Container>
+        <Container
+          style={{
+            backgroundColor: " #e0e0d1",
+            height: "500px",
+            padingTop: "15px"
+          }}
+        >
           <Row>
-            <Col xs={{ offset: 4 }} md={{ size: 3, offset: 1 }}>
-              <img src="/image/champagne1.jpg" alt="champagne" style={{}} />
-              <ModalChamSr />
+            <Col xs={{ size: 4 }} md={{ size: 2, offset: 1 }}>
+              <img
+                src="/image/champagne1.jpg"
+                alt="champagne"
+                style={{ marginTop: "50px", width: "150px", height: "400px" }}
+              />
             </Col>
-            <Col xs={{ offset: 4 }} md={{ size: 3, offset: 1 }}>
-              <img src="/image/champagne2.jpg" alt="champagne" style={{}} />
-              <ModalChamSr />
-            </Col>
-            <Col xs={{ offset: 4 }} md={{ size: 3, offset: 1 }}>
-              <img src="/image/champagne3.jpg" alt="champagne" style={{}} />
-              <ModalChamSr />
+            <Col
+              xs={{ size: 8 }}
+              md={{ size: 8 }}
+              style={{
+                color: "white",
+                marginTop: "75px",
+                fontSize: "24px"
+              }}
+            >
+              Un ensemblage complexe
+              <br />
+              <strong>9g</strong> le dosage traditionnel, plansant et frais
+              <br />
+              <strong>7g</strong> un juste milieu pour les amateurs cherchant de
+              nouvelles sansations
+              <br />
+              <strong>5g</strong> de vin presque nature, un chardonnay vrai sans
+              pudeur
             </Col>
           </Row>
         </Container>

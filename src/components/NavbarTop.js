@@ -29,9 +29,23 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <Row>
-        <Navbar color="white" light fixed={`top`} expand="md">
-          <NavbarBrand href="/" style={{ color: "#D5B23C" }}>
-            Champagne Regnault
+        <Navbar
+          style={{ backgroundColor: "#000000" }}
+          light
+          fixed={`top`}
+          expand="md"
+        >
+          <NavbarBrand href="/" style={{ color: "white" }}>
+            <img
+              src="image/regnault-logo facture.jpg"
+              alt=""
+              style={{
+                width: "32%",
+                marginLeft: "25px",
+                borderTopWidth: "3px",
+                borderStyle: "solid"
+              }}
+            />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -39,7 +53,7 @@ export default class NavBar extends React.Component {
               <NavItem>
                 <NavLink
                   href="#Une viticulture durable et respectueuse de l'environnement"
-                  style={{ fontSize: "12px", color: "#97d60c" }}
+                  style={{ fontSize: "12px", color: "#D5B23C" }}
                 >
                   Une viticulture durable et respectueuse de l'environnement{" "}
                 </NavLink>
@@ -47,7 +61,7 @@ export default class NavBar extends React.Component {
               <NavItem>
                 <NavLink
                   href="#Les Bouteilles de Patrick Regnault"
-                  style={{ fontSize: "12px", color: "#97d60c" }}
+                  style={{ fontSize: "12px", color: "#D5B23C" }}
                 >
                   Les Bouteilles de Patrick Regnault
                 </NavLink>
@@ -55,7 +69,7 @@ export default class NavBar extends React.Component {
               <NavItem>
                 <NavLink
                   href="#Les Bouteilles de Stéphane Regnault"
-                  style={{ fontSize: "12px", color: "#97d60c" }}
+                  style={{ fontSize: "12px", color: "#D5B23C" }}
                 >
                   Les Bouteilles de Stéphane Regnault
                 </NavLink>
@@ -63,7 +77,7 @@ export default class NavBar extends React.Component {
               <NavItem>
                 <NavLink
                   href="#Galerie Photos"
-                  style={{ fontSize: "12px", color: "#97d60c" }}
+                  style={{ fontSize: "12px", color: "#D5B23C" }}
                 >
                   Galerie Photos
                 </NavLink>
@@ -71,7 +85,7 @@ export default class NavBar extends React.Component {
               <NavItem>
                 <NavLink
                   href="#Contact"
-                  style={{ fontSize: "12px", color: "#97d60c" }}
+                  style={{ fontSize: "12px", color: "#D5B23C" }}
                 >
                   Contact
                 </NavLink>
