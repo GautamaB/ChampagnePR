@@ -6,6 +6,9 @@ import ImageHeader from "./components/ImageHeader";
 import ImageParallaxReact from "./components/ImageParallaxReact";
 import ChampPr from "./components/ChampPr";
 import ChampSr from "./components/ChampSr";
+
+import ChampSrBouteille from "./components/ChampSrBouteille";
+
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
@@ -18,6 +21,8 @@ class App extends Component {
         <ImageParallaxReact />
         <ChampPr />
         <ChampSr />
+        <br />
+        <ChampSrBouteille />
         <Gallery />
         <Footer />
       </div>

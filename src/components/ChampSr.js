@@ -1,5 +1,4 @@
 import React from "react";
-import ModalChamSr from "./ModalChamSr";
 
 import { Container, Row, Col } from "reactstrap";
 
@@ -46,6 +45,14 @@ const bouteille = () => {
                 fontSize: "24px"
               }}
             >
+              <h2
+                style={{
+                  fontSize: "28px",
+                  fontWeight: "bold"
+                }}
+              >
+                Brut et extra brut blanc de blancs
+              </h2>
               Un ensemblage complexe
               <br />
               <strong>9g</strong> le dosage traditionnel, plansant et frais
@@ -58,17 +65,6 @@ const bouteille = () => {
             </Col>
           </Row>
         </Container>
-        {/* <img
-        src="/image/bouteille.jpg"
-        alt="bouteille de Patrick Regnault"
-        style={{
-          width: "50%",
-          marginTop: "55px",
-          marginLeft: "auto",
-          marginRight: "auto",
-          display: "block"
-        }}
-      /> */}
       </Col>
     </Row>
   );
