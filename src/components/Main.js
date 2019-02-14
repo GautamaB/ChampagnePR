@@ -27,7 +27,11 @@ class Main extends Component {
         <Gallery />
         <Footer />
         <div>
-          <ScrollUpButton AnimationDuration={800} />
+          <ScrollUpButton
+            AnimationDuration={800}
+            ShowAtPosition={3100}
+            style={{ marginRight: "-15px" }}
+          />
         </div>
       </div>
     );
