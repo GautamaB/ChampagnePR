@@ -1,8 +1,9 @@
 import React from "react";
 import Gallery from "react-photo-gallery";
 import Lightbox from "react-images";
-
+import { Col, Button } from "reactstrap";
 import { Container } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const photos = [
   {
@@ -52,7 +53,7 @@ const photos = [
   }
 ];
 
-export default class App extends React.Component {
+export default class GalleryPhoto extends React.Component {
   constructor() {
     super();
     this.state = { currentImage: 0 };
@@ -99,6 +100,16 @@ export default class App extends React.Component {
           Galerie Photos
         </h1>
         <Gallery photos={photos} onClick={this.openLightbox} />
+        <Col sm="12" md={{ size: 4, offset: 4 }} style={{ marginTop: "25px" }}>
+          <Link to="/GalleryAll">
+            <Button
+              style={{ fontSize: "22px", marginLeft: "34%" }}
+              color="info"
+            >
+              Voir plus
+            </Button>
+          </Link>
+        </Col>
         <Lightbox
           images={photos}
           onClose={this.closeLightbox}
