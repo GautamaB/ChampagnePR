@@ -1,11 +1,148 @@
 import React from "react";
 import Gallery from "react-photo-gallery";
 import Lightbox from "react-images";
+import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
 import { Col, Button } from "reactstrap";
 import { Container } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const photos = [
+  {
+    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    width: 1,
+    height: 1
+  },
+  {
+    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    width: 1,
+    height: 1
+  },
+  {
+    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    width: 1,
+    height: 1
+  },
+  {
+    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+    width: 4,
+    height: 3
+  },
   {
     src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
     width: 4,
@@ -87,7 +224,7 @@ export default class GalleryAll extends React.Component {
   render() {
     return (
       <Container>
-        <div style={{ paddingBottom: "35px" }} id="Galerie Photos" />
+        <div id="Galerie Photos" />
         <h1
           style={{
             size: "20px",
@@ -100,11 +237,20 @@ export default class GalleryAll extends React.Component {
           Galerie Photos
         </h1>
         <Gallery photos={photos} onClick={this.openLightbox} />
-        <Col sm="12" md={{ size: 4, offset: 4 }} style={{ marginTop: "25px" }}>
-          <Button style={{ marginLeft: "35%" }} color="primary">
-            Voir plus
-          </Button>
+        <Col
+          sm="12"
+          md={{ size: 4, offset: 4 }}
+          style={{ marginTop: "25px", marginBottom: "55px" }}
+        >
+          <Link to="/">
+            <Button style={{ marginLeft: "35%" }} color="primary">
+              Retour
+            </Button>
+          </Link>
         </Col>
+        <div>
+          <ScrollUpButton AnimationDuration={800} />
+        </div>
         <Lightbox
           images={photos}
           onClose={this.closeLightbox}
