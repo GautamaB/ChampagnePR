@@ -29,7 +29,7 @@ const bouteille = () => {
           }}
         >
           <Row>
-            <Col xs={{ size: 4 }} md={{ size: 2, offset: 1 }}>
+            <Col xs={{ size: 6, offset: 0 }} md={{ size: 2, offset: 1 }}>
               <img
                 src="/image/champagne1.jpg"
                 alt="champagne"
@@ -37,7 +37,7 @@ const bouteille = () => {
               />
             </Col>
             <Col
-              xs={{ size: 8 }}
+              xs={{ size: 6 }}
               md={{ size: 8 }}
               style={{
                 color: "white",

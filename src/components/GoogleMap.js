@@ -40,10 +40,24 @@ export class MapContainer extends Component {
         zoom={16}
         onClick={this.onMapClicked}
       >
-        <Marker onClick={this.onMarkerClick} name={"champagne"} />
-        <InfoWindow onClose={this.onInfoWindowClose}>
+        <Marker
+          onClick={this.onMarkerClick}
+          name={"Champagne Patrick Regnault"}
+        />
+        <InfoWindow
+          marker={this.state.activeMarker}
+          visible={this.state.showingInfoWindow}
+        >
+          >
           <div>
-            <h1>home</h1>
+            <h1 style={{ fontSize: "18px", textAlign: "center" }}>
+              Champagne Patrick Regnault
+            </h1>
+            <img
+              src="/image/entrée.jpg"
+              alt="Entrée"
+              style={{ width: "150px", height: "100px", marginLeft: "20px" }}
+            />
           </div>
         </InfoWindow>
       </Map>

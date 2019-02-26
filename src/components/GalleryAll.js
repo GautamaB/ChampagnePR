@@ -236,7 +236,6 @@ export default class GalleryAll extends React.Component {
         >
           Galerie Photos
         </h1>
-        <Gallery photos={photos} onClick={this.openLightbox} />
         <Col
           sm="12"
           md={{ size: 4, offset: 4 }}
@@ -248,6 +247,7 @@ export default class GalleryAll extends React.Component {
             </Button>
           </Link>
         </Col>
+        <Gallery photos={photos} onClick={this.openLightbox} />
         <div>
           <ScrollUpButton AnimationDuration={800} />
         </div>
@@ -259,6 +259,7 @@ export default class GalleryAll extends React.Component {
           currentImage={this.state.currentImage}
           isOpen={this.state.lightboxIsOpen}
         />
+        <div style={{ marginBottom: "35px" }} />
       </Container>
     );
   }
