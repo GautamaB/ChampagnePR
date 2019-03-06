@@ -1,8 +1,9 @@
 import React from "react";
 import Form from "./Form";
 import GoogleMap from "./GoogleMap";
+import "../App.css";
 
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 
 const footer = () => {
   return (
@@ -23,37 +24,55 @@ const footer = () => {
         }}
       />
       <p style={{ border: "3px solid #D5B23C" }} />
-      <Container>
-        <Row>
-          <Col
-            xs={{ size: 10, order: 1 }}
-            md={{ size: 5, offset: 1, order: 1 }}
+      <Row>
+        <Col xs={{ size: 10, order: 1 }} md={{ size: 5, offset: 1, order: 1 }}>
+          <div style={{ paddingBottom: "65px" }} id="Contact" />
+          <h1 style={{ paddingLeft: "25px" }}>Contact : </h1>
+          <div
+            class="overlay-image"
+            style={{ padding: " 25px  0px 55px 25px " }}
           >
-            <div style={{ paddingBottom: "65px" }} id="Contact" />
-            <h1>Contact : </h1>
-            <p style={{ marginLeft: "20px" }}>
-              REGNAULT PATRICK
+            <img
+              className="image"
+              src="image/logo.png"
+              alt="logo"
+              style={{ width: "550px", height: "450px" }}
+            />
+            <div className="text" style={{ margin: "-200px 0 0 -5px" }}>
+              <p1 style={{ color: "grey" }}>
+                <strong>CHAMPAGNE</strong>
+              </p1>
               <br />
-              45 Grande rue
               <br />
-              51190 Le Mesnil sur Oger
+              <p>
+                <strong
+                  style={{
+                    color: "black",
+                    fontFamily: "Dancing Script",
+                    fontSize: "35px"
+                  }}
+                >
+                  Patrick Regnault
+                </strong>
+              </p>
               <br />
-              Téléphone : 03 26 57 54 50
+              <strong>
+                45 Grande Rue <br />
+                51190 LE MESNIL-sur-OGER <br />
+              </strong>
               <br />
-              Email : champagne-p-regnault@orange.fr
-            </p>
-            <Form />
-          </Col>
-          <Col
-            xs={{ size: 10, order: 2 }}
-            md={{ size: 5, offset: 1, order: 2 }}
-          >
-            <div style={{ marginTop: "85px" }}>
-              <GoogleMap />
+              Tél. : 03 26 57 54 50
+              <br /> e-mail : champagne-p-regnault@orange.fr
             </div>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+          <Form />
+        </Col>
+        <Col xs={{ size: 10, order: 2 }} md={{ size: 5, order: 2 }}>
+          <div style={{ marginTop: "85px" }}>
+            <GoogleMap />
+          </div>
+        </Col>
+      </Row>
     </div>
   );
 };

@@ -6,7 +6,7 @@ export default class FormContact extends React.Component {
     return (
       <Row>
         <Col>
-          <Form style={{ marginBottom: "55px" }}>
+          <Form style={{ paddingLeft: "55px", marginBottom: "55px" }}>
             <FormGroup>
               <Label style={{ marginLeft: "25px" }} for="exampleEmail">
                 Nom :
