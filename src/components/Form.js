@@ -6,13 +6,18 @@ export default class FormContact extends React.Component {
     return (
       <Row>
         <Col>
-          <Form style={{ marginBottom: "55px" }}>
+          <Form style={{ paddingLeft: "55px", marginBottom: "55px" }}>
             <FormGroup>
               <Label style={{ marginLeft: "25px" }} for="exampleEmail">
                 Nom :
               </Label>
               <Col xs="12" md="9">
-                <Input style={{ marginLeft: "35px" }} type="text" name="nom" />
+                <Input
+                  style={{ marginLeft: "35px" }}
+                  type="text"
+                  name="nom"
+                  required
+                />
               </Col>
             </FormGroup>
             <FormGroup>
@@ -25,6 +30,7 @@ export default class FormContact extends React.Component {
                   type="email"
                   name="email"
                   id="exampleEmail"
+                  required
                 />
               </Col>
             </FormGroup>
@@ -36,11 +42,13 @@ export default class FormContact extends React.Component {
                 <Input
                   style={{
                     marginLeft: "35px",
-                    height: "200px"
+                    height: "200px",
+                    boxShadow: "none"
                   }}
                   type="textarea"
                   name="text"
                   id="exampleText"
+                  required
                 />
               </Col>
             </FormGroup>

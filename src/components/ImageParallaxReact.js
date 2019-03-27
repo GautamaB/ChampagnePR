@@ -44,11 +44,10 @@ const ImageParallaxReact = () => (
             width: "50%"
           }}
         />
-        <br />
-        <br />
+
         <div
-          id="Une viticulture durable et respectueuse de l'environnement"
-          style={{ marginBottom: "5px" }}
+          id="L'esprit de la maison"
+          style={{ paddingTop: "35px", marginTop: "25px" }}
         />
 
         <h1
@@ -59,7 +58,7 @@ const ImageParallaxReact = () => (
             color: "#D5B23C"
           }}
         >
-          Une viticulture durable et respectueuse de l'environnement
+          L'esprit de la maison
         </h1>
         <p
           style={{
@@ -243,26 +242,22 @@ const ImageParallaxReact = () => (
           borderTop: "none"
         }}
       >
-        <p
+        <div style={{ paddingBottom: "70px" }} id="Le terroir" />
+        <h2
           style={{
-            textAlign: "justify",
-            marginTop: "75px",
-            fontsize: "28px",
-            marginBottom: "180px",
-            color: "#000000",
-            paddingLeft: "15px",
-            paddingRight: "15px"
+            fontSize: "24px",
+            color: "#D5B23C",
+            textAlign: "center",
+            marginBottom: "35px"
           }}
         >
-          La protection de l'environnement est au coeur de toutes les
-          discutions. Si nous ne changeons pas notre approche à l'environnement,
-          qu'allons nous léguer à nos futurs générations? Depuis 2005, nous
-          avons choisi de modifier en profondeur nos méthodes de travail. Le
-          respect du sol est la base d'une viticulture saine. Pour avoir de bon
-          raisin, la vigne doit se sentir bien dans son milieu. Notre vignoble
-          est désherbé mécaniquement pour limiter plus que fortement
-          l'utilisation de désherbant chimique.
-        </p>
+          Nos parcelles
+        </h2>
+        <img
+          src="image/carte.png"
+          alt="carte des parcelles"
+          style={{ width: "500px", height: "350px", marginBottom: "35px" }}
+        />
         <img
           src="image/lion.png"
           alt="logo"

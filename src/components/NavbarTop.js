@@ -37,13 +37,11 @@ export default class NavBar extends React.Component {
         >
           <NavbarBrand href="/" style={{ color: "white" }}>
             <img
-              src="image/regnault-logo facture.jpg"
+              src="image/logo.png"
               alt=""
               style={{
-                width: "32%",
-                marginLeft: "25px",
-                borderTopWidth: "3px",
-                borderStyle: "solid"
+                width: "15%",
+                marginLeft: "5px"
               }}
             />
           </NavbarBrand>
@@ -55,32 +53,32 @@ export default class NavBar extends React.Component {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink
-                  href="#Une viticulture durable et respectueuse de l'environnement"
-                  style={{ fontSize: "12px", color: "#D5B23C" }}
+                  href="#L'esprit de la maison"
+                  style={{ fontSize: "24px", color: "#D5B23C" }}
                 >
-                  Une viticulture durable et respectueuse de l'environnement{" "}
+                  L'esprit de la maison
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#Les Bouteilles de Patrick Regnault"
-                  style={{ fontSize: "12px", color: "#D5B23C" }}
+                  href="#Le terroir"
+                  style={{ fontSize: "24px", color: "#D5B23C" }}
                 >
-                  Les Bouteilles de Patrick Regnault
+                  Le terroir
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="#Les Bouteilles de Stéphane Regnault"
-                  style={{ fontSize: "12px", color: "#D5B23C" }}
+                  href="#Nos vins"
+                  style={{ fontSize: "24px", color: "#D5B23C" }}
                 >
-                  Les Bouteilles de Stéphane Regnault
+                  Nos vins
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
                   href="#Galerie Photos"
-                  style={{ fontSize: "12px", color: "#D5B23C" }}
+                  style={{ fontSize: "24px", color: "#D5B23C" }}
                 >
                   Galerie Photos
                 </NavLink>
@@ -88,7 +86,7 @@ export default class NavBar extends React.Component {
               <NavItem>
                 <NavLink
                   href="#Contact"
-                  style={{ fontSize: "12px", color: "#D5B23C" }}
+                  style={{ fontSize: "24px", color: "#D5B23C" }}
                 >
                   Contact
                 </NavLink>
