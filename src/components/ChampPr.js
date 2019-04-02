@@ -1,4 +1,5 @@
 import React from "react";
+import { Parallax } from "react-parallax";
 
 import { Row, Col } from "reactstrap";
 
@@ -44,7 +45,7 @@ const ChampPr = ({
         <Col style={{ backgroundColor: "#fff6db" }}>
           <Row
             style={{
-              height: "425px"
+              height: "400px"
             }}
           >
             <Col
@@ -113,16 +114,14 @@ const ChampPr = ({
                 </div>
               </div>
             </Col>
-            <Col xs={{ size: 6 }} md={{ size: 6 }}>
-              <img
-                src="/image/18.jpg"
-                alt="champagne"
-                style={{
-                  width: "735px",
-                  height: "400px",
-                  marginTop: "15px"
-                }}
-              />
+            <Col xs={{ size: 6 }} md={{ size: 7 }}>
+              <Parallax
+                bgImage={"image/18.jpg"}
+                bgImageAlt="champagne brut et extra brut"
+                strength={200}
+              >
+                <div style={{ height: 400 }} />
+              </Parallax>
             </Col>
           </Row>
         </Col>
@@ -131,7 +130,7 @@ const ChampPr = ({
         <Col style={{ backgroundColor: "#fff6db" }}>
           <Row
             style={{
-              height: "425px"
+              height: "400px"
             }}
           >
             <Col
@@ -199,16 +198,14 @@ const ChampPr = ({
                 </div>
               </div>
             </Col>
-            <Col xs={{ size: 6 }} md={{ size: 6 }}>
-              <img
-                src="/image/15.jpg"
-                alt="champagne"
-                style={{
-                  width: "735px",
-                  height: "400px",
-                  marginTop: "15px"
-                }}
-              />
+            <Col xs={{ size: 6 }} md={{ size: 7 }}>
+              <Parallax
+                bgImage={"image/15.jpg"}
+                bgImageAlt="champagne Brut Millésimé"
+                strength={200}
+              >
+                <div style={{ height: 400 }} />
+              </Parallax>
             </Col>
           </Row>
         </Col>
@@ -217,7 +214,7 @@ const ChampPr = ({
         <Col style={{ backgroundColor: "#fff6db" }}>
           <Row
             style={{
-              height: "425px"
+              height: "400px"
             }}
           >
             <Col
@@ -287,16 +284,14 @@ const ChampPr = ({
                 </div>
               </div>
             </Col>
-            <Col xs={{ size: 6 }} md={{ size: 6 }}>
-              <img
-                src="/image/20.jpg"
-                alt="champagne"
-                style={{
-                  width: "735px",
-                  height: "400px",
-                  marginTop: "15px"
-                }}
-              />
+            <Col xs={{ size: 6 }} md={{ size: 7 }}>
+              <Parallax
+                bgImage={"image/20.jpg"}
+                bgImageAlt="champagne  Brut Réserve"
+                strength={200}
+              >
+                <div style={{ height: 400 }} />
+              </Parallax>
             </Col>
           </Row>
         </Col>
@@ -305,7 +300,7 @@ const ChampPr = ({
         <Col style={{ backgroundColor: "#fff6db" }}>
           <Row
             style={{
-              height: "425px"
+              height: "400px"
             }}
           >
             <Col
@@ -376,16 +371,14 @@ const ChampPr = ({
                 </div>
               </div>
             </Col>
-            <Col xs={{ size: 6 }} md={{ size: 6 }}>
-              <img
-                src="/image/19.jpg"
-                alt="champagne"
-                style={{
-                  width: "735px",
-                  height: "400px",
-                  marginTop: "15px"
-                }}
-              />
+            <Col xs={{ size: 6 }} md={{ size: 7 }}>
+              <Parallax
+                bgImage={"image/19.jpg"}
+                bgImageAlt="champagne Esprit d'Auteur"
+                strength={200}
+              >
+                <div style={{ height: 400 }} />
+              </Parallax>
             </Col>
           </Row>
         </Col>
@@ -394,7 +387,7 @@ const ChampPr = ({
         <Col style={{ backgroundColor: "#fff6db" }}>
           <Row
             style={{
-              height: "425px"
+              height: "400px"
             }}
           >
             <Col
@@ -466,16 +459,14 @@ const ChampPr = ({
                 </div>
               </div>
             </Col>
-            <Col xs={{ size: 6 }} md={{ size: 6 }}>
-              <img
-                src="/image/16.jpg"
-                alt="champagne"
-                style={{
-                  width: "735px",
-                  height: "400px",
-                  marginTop: "15px"
-                }}
-              />
+            <Col xs={{ size: 6 }} md={{ size: 7 }}>
+              <Parallax
+                bgImage={"image/16.jpg"}
+                bgImageAlt="champagne Brut Rosé"
+                strength={200}
+              >
+                <div style={{ height: 400 }} />
+              </Parallax>
             </Col>
           </Row>
         </Col>
