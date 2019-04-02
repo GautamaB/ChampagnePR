@@ -6,7 +6,7 @@ const bouteille = () => {
   return (
     <Row>
       <Col>
-        <div style={{ paddingBottom: "35px" }} />
+        <div />
         <h2
           style={{
             size: "20px",
