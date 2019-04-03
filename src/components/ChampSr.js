@@ -76,7 +76,7 @@ const bouteille = () => {
             <div>
               <img
                 src="/image/Dorien 14.png"
-                alt="Brut rosé"
+                alt="Dorien 14"
                 style={{
                   width: "100px",
                   height: "140px",
@@ -156,7 +156,7 @@ const bouteille = () => {
             <div>
               <img
                 src="/image/Lydien 14.png"
-                alt="Brut rosé"
+                alt="Lydien 14"
                 style={{
                   width: "100px",
                   height: "140px",
@@ -236,7 +236,7 @@ const bouteille = () => {
             <div>
               <img
                 src="/image/Mixolydien 14.png"
-                alt="Brut rosé"
+                alt="Mixolydien 14"
                 style={{
                   width: "100px",
                   height: "140px",
