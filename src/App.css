@@ -2,11 +2,13 @@ h1 {
   font-family: "Dancing Script", cursive;
 }
 
-p {
+/* p {
   font-family: "Amatic SC", cursive;
   font-size: 20px;
+} */
+#titreChamp {
+  font-family: "Dancing Script", cursive;
 }
-
 .overlay-image .image {
   display: block;
   width: 100%;
