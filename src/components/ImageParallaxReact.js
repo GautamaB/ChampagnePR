@@ -24,7 +24,7 @@ const ImageParallaxReact = () => (
         xs={{ size: 12 }}
         md={{ size: 4 }}
         style={{
-          marginTop: "-255px",
+          marginTop: "-13%",
           backgroundColor: "#fff6db",
           borderWidth: "5px",
           borderStyle: "solid",
@@ -36,25 +36,24 @@ const ImageParallaxReact = () => (
           src="image/logo facture.png"
           alt=""
           style={{
-            marginTop: "55px",
-            height: "105px",
+            marginTop: "10%",
+            height: "12%",
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
             width: "50%"
           }}
         />
-
         <div
           id="L'esprit de la maison"
-          style={{ paddingTop: "35px", marginTop: "25px" }}
+          style={{ paddingTop: "5%", marginTop: "5%" }}
         />
-
         <h1
           style={{
             textAlign: "center",
-            marginTop: "60px",
-            fontSize: "26px",
+            marginTop: "12%",
+            marginBottom: "27%",
+            // fontSize: "26px",
             color: "#D5B23C"
           }}
         >
@@ -63,11 +62,11 @@ const ImageParallaxReact = () => (
         <p
           style={{
             textAlign: "justify",
-            marginTop: "100px",
-            marginBottom: "90px",
+            marginTop: "15%",
+            marginBottom: "11%",
             color: "#000000",
-            paddingLeft: "15px",
-            paddingRight: "15px"
+            paddingLeft: "10%",
+            paddingRight: "10%"
           }}
         >
           La protection de l'environnement est au coeur de toutes les
@@ -86,15 +85,10 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            float: "right",
+            marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
         />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <hr style={{ background: "black" }} />
       </Col>
       <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
@@ -102,7 +96,6 @@ const ImageParallaxReact = () => (
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
-
       <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
         <Parallax bgImage={image3} strength={500}>
           <div style={{ height: 700 }} />
@@ -122,12 +115,11 @@ const ImageParallaxReact = () => (
         <p
           style={{
             textAlign: "justify",
-            marginTop: "75px",
-            fontsize: "28px",
-            marginBottom: "130px",
+            marginTop: "30%",
+            marginBottom: "21%",
             color: "#000000",
-            paddingLeft: "15px",
-            paddingRight: "15px"
+            paddingLeft: "10%",
+            paddingRight: "10%"
           }}
         >
           Pourquoi notre exploitation n'est pas certifier Agriculture
@@ -148,15 +140,10 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            float: "right",
+            marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
         />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <hr style={{ background: "black" }} />
       </Col>
       <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
@@ -184,12 +171,11 @@ const ImageParallaxReact = () => (
         <p
           style={{
             textAlign: "justify",
-            marginTop: "75px",
-            fontsize: "28px",
-            marginBottom: "135px",
+            marginTop: "30%",
+            marginBottom: "21%",
             color: "#000000",
-            paddingLeft: "15px",
-            paddingRight: "15px"
+            paddingLeft: "10%",
+            paddingRight: "10%"
           }}
         >
           Pour aller un peu plus loin, nous utilisons aussi des plantes pour
@@ -210,15 +196,10 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            float: "right",
+            marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
         />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <hr style={{ background: "black" }} />
       </Col>
       <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
@@ -265,7 +246,7 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            float: "right",
+            marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
         />
