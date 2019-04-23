@@ -112,6 +112,7 @@ const ImageParallaxReact = () => (
           borderBottom: "none"
         }}
       >
+        {" "}
         <p
           style={{
             textAlign: "justify",
@@ -209,7 +210,7 @@ const ImageParallaxReact = () => (
       </Col>
       <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
         <Parallax bgImage={image7} strength={200}>
-          <div style={{ height: 640 }} />
+          <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
@@ -237,7 +238,7 @@ const ImageParallaxReact = () => (
         <img
           src="image/carte.png"
           alt="carte des parcelles"
-          style={{ width: "500px", height: "350px", marginBottom: "35px" }}
+          style={{ width: "100%", height: "350px", marginBottom: "35px" }}
         />
         <img
           src="image/lion.png"
@@ -246,6 +247,7 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
+            marginTop: "12%",
             marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
@@ -253,11 +255,10 @@ const ImageParallaxReact = () => (
       </Col>
       <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
         <Parallax bgImage={image8} strength={200}>
-          <div style={{ height: 640 }} />
+          <div style={{ height: 700 }} />
         </Parallax>
       </Col>
     </Row>
   </div>
 );
-
 export default ImageParallaxReact;
