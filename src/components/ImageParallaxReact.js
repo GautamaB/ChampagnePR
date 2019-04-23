@@ -53,7 +53,6 @@ const ImageParallaxReact = () => (
             textAlign: "center",
             marginTop: "12%",
             marginBottom: "27%",
-            // fontSize: "26px",
             color: "#D5B23C"
           }}
         >
@@ -224,7 +223,7 @@ const ImageParallaxReact = () => (
           borderTop: "none"
         }}
       >
-        <div style={{ paddingBottom: "70px" }} id="Le terroir" />
+        <div style={{ paddingBottom: "12%" }} id="Le terroir" />
         <h2
           style={{
             fontSize: "24px",
