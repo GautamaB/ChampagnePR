@@ -39,9 +39,9 @@ const footer = () => {
               style={{ width: "550px", height: "450px" }}
             />
             <div className="text" style={{ margin: "-200px 0 0 -5px" }}>
-              <p1 style={{ color: "grey" }}>
+              <p style={{ color: "grey" }}>
                 <strong>CHAMPAGNE</strong>
-              </p1>
+              </p>
               <br />
               <br />
               <p>

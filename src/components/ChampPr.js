@@ -60,8 +60,8 @@ const ChampPr = () => {
               Blanc de Blancs
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -92,8 +92,8 @@ const ChampPr = () => {
                 }}
               />
               <p
+                            className="resize"
                 style={{
-                  fontSize: "13px",
                   color: "#d2d441",
                   transform: "rotate(-10deg)",
                   marginLeft: "125px"
@@ -143,8 +143,8 @@ const ChampPr = () => {
               Brut Millésimé
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -175,8 +175,8 @@ const ChampPr = () => {
                 }}
               />
               <p
+                                          className="resize"
                 style={{
-                  fontSize: "13px",
                   color: "#d2d441",
                   transform: "rotate(-10deg)",
                   marginLeft: "122px"
@@ -226,8 +226,8 @@ const ChampPr = () => {
               Brut Réserve
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -260,8 +260,8 @@ const ChampPr = () => {
                 }}
               />
               <p
+                                          className="resize"
                 style={{
-                  fontSize: "13px",
                   color: "#000000",
                   transform: "rotate(-10deg)",
                   marginLeft: "94px"
@@ -311,8 +311,8 @@ const ChampPr = () => {
               Esprit d'Auteur
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -346,8 +346,8 @@ const ChampPr = () => {
                 }}
               />
               <p
+                                          className="resize"
                 style={{
-                  fontSize: "13px",
                   color: "#584764",
                   marginLeft: "94px",
                   transform: "rotate(-10deg)"
@@ -397,8 +397,8 @@ const ChampPr = () => {
               Brut Rosé
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -433,8 +433,8 @@ const ChampPr = () => {
                 }}
               />
               <p
+                                          className="resize"
                 style={{
-                  fontSize: "13px",
                   color: "#b83940",
                   marginLeft: "100px",
                   transform: "rotate(-10deg)"

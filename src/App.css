@@ -25,14 +25,58 @@ h1 {
 p {
   font-size: 16px;
 }
+/* p of ChampPr */
+p.resizepr {
+  font-size: 14px;
+}
+/* second p in ChampPr */
+p.resize {
+  font-size: 13px;
+}
+/* p of ChampSr */
+p.responsive {
+  font-size: 12px;
+}
 @media only screen and (max-width: 1024px) {
   p {
     font-size: 14px;
   }
+  p.resizepr {
+    font-size: 12px;
+  }
+  p.resize {
+    font-size: 11px;
+  }
+  p.responsive {
+    font-size: 11px;
+  }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
   p {
     font-size: 12px;
+  }
+  p.resizepr {
+    font-size: 10px;
+  }
+  p.responsive {
+    font-size: 10px;
+  }
+  p.resize {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  p {
+    font-size: 12px;
+  }
+  p.resizepr {
+    font-size: 10px;
+  }
+  p.responsive {
+    font-size: 9px;
+  }
+  p.resize {
+    font-size: 9px;
   }
 }
