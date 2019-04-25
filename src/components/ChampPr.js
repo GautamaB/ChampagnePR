@@ -8,7 +8,7 @@ const ChampPr = () => {
     <div>
       <Row>
         <Col>
-          <div style={{ paddingBottom: "4%" }} id="Nos vins" />
+          <div style={{ paddingBottom: "5%" }} id="Nos vins" />
           <h1
             style={{
               fontSize: "50px",
@@ -20,7 +20,7 @@ const ChampPr = () => {
           </h1>
           <h2
             style={{
-              size: "20px",
+              fontSize: "25px",
               textAlign: "center",
               color: "#D5B23C",
               marginTop: "1%",
@@ -79,25 +79,24 @@ const ChampPr = () => {
               style={{
                 marginLeft: "auto",
                 marginRight: "auto",
-                width: "230px",
-                marginBottom: "25px"
+                width: "210px"
               }}
             >
               <img
                 src="/image/brut.png"
                 alt="brut"
                 style={{
-                  width: "140px",
-                  height: "90px",
+                  width: "120px",
+                  height: "80px",
                   float: "left"
                 }}
               />
               <p
                 style={{
-                  fontSize: "18px",
+                  fontSize: "13px",
                   color: "#d2d441",
                   transform: "rotate(-10deg)",
-                  marginLeft: "145px"
+                  marginLeft: "125px"
                 }}
               >
                 Vivacité & <br />
@@ -163,25 +162,24 @@ const ChampPr = () => {
               style={{
                 marginLeft: "auto",
                 marginRight: "auto",
-                width: "245px",
-                marginBottom: "25px"
+                width: "210px"
               }}
             >
               <img
                 src="/image/BrutMillésimé.png"
                 alt="Brut Millésimé"
                 style={{
-                  width: "140px",
-                  height: "90px",
+                  width: "120px",
+                  height: "80px",
                   float: "left"
                 }}
               />
               <p
                 style={{
-                  fontSize: "17px",
+                  fontSize: "13px",
                   color: "#d2d441",
                   transform: "rotate(-10deg)",
-                  marginLeft: "150px"
+                  marginLeft: "122px"
                 }}
               >
                 Fraîcheur & <br />
@@ -249,28 +247,24 @@ const ChampPr = () => {
               style={{
                 marginLeft: "auto",
                 marginRight: "auto",
-                width: "370px",
-                marginBottom: "25px"
+                width: "175px"
               }}
             >
               <img
                 src="/image/réserve.png"
                 alt="Brut Réserve"
                 style={{
-                  width: "100px",
+                  width: "90px",
                   height: "120px",
-                  marginBottom: "5px",
-                  marginLeft: "100px"
+                  float: "left"
                 }}
               />
               <p
                 style={{
-                  fontSize: "18px",
-                  float: "right",
+                  fontSize: "13px",
                   color: "#000000",
-                  marginTop: "15px",
-                  marginRight: "85px",
-                  transform: "rotate(-10deg)"
+                  transform: "rotate(-10deg)",
+                  marginLeft: "94px"
                 }}
               >
                 Finesse & <br />
@@ -339,27 +333,23 @@ const ChampPr = () => {
               style={{
                 marginLeft: "auto",
                 marginRight: "auto",
-                width: "380px",
-                marginBottom: "25px"
+                width: "175px"
               }}
             >
               <img
                 src="/image/esprit.png"
                 alt="Esprit d'Auteur"
                 style={{
-                  width: "100px",
+                  width: "90px",
                   height: "120px",
-                  marginBottom: "5px",
-                  marginLeft: "84px"
+                  float: "left"
                 }}
               />
               <p
                 style={{
-                  fontSize: "18px",
-                  float: "right",
+                  fontSize: "13px",
                   color: "#584764",
-                  marginTop: "15px",
-                  marginRight: "85px",
+                  marginLeft: "94px",
                   transform: "rotate(-10deg)"
                 }}
               >
@@ -430,27 +420,23 @@ const ChampPr = () => {
               style={{
                 marginLeft: "auto",
                 marginRight: "auto",
-                width: "410px",
-                marginBottom: "25px"
+                width: "210px"
               }}
             >
               <img
                 src="/image/rosé.png"
                 alt="Brut rosé"
                 style={{
-                  width: "140px",
-                  height: "100px",
-                  marginBottom: "5px",
-                  marginLeft: "70px"
+                  width: "115px",
+                  height: "80px",
+                  float: "left"
                 }}
               />
               <p
                 style={{
-                  fontSize: "18px",
-                  float: "right",
+                  fontSize: "13px",
                   color: "#b83940",
-                  marginTop: "15px",
-                  marginRight: "85px",
+                  marginLeft: "100px",
                   transform: "rotate(-10deg)"
                 }}
               >

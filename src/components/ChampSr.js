@@ -10,11 +10,11 @@ const bouteille = () => {
         <Col>
           <h2
             style={{
-              size: "20px",
+              fontSize: "25px",
               textAlign: "center",
               color: "#D5B23C",
-              marginTop: "25px",
-              marginBottom: "25px"
+              marginTop: "5%",
+              marginBottom: "2%"
             }}
           >
             Les Bouteilles de Stéphane Regnault
@@ -73,25 +73,28 @@ const bouteille = () => {
               <br />
               vel consequat est.
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "175px"
+              }}
+            >
               <img
                 src="/image/Dorien 14.png"
                 alt="Dorien 14"
                 style={{
                   width: "100px",
                   height: "140px",
-                  marginBottom: "5px",
-                  marginLeft: "100px"
+                  float: "left"
                 }}
               />
               <p
                 style={{
                   fontSize: "18px",
-                  float: "right",
                   color: "#091176",
-                  marginTop: "15px",
-                  marginRight: "85px",
-                  transform: "rotate(-10deg)"
+                  transform: "rotate(-10deg)",
+                  marginLeft: "145px"
                 }}
               >
                 Lorem & <br />

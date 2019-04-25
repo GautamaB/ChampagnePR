@@ -223,13 +223,13 @@ const ImageParallaxReact = () => (
           borderTop: "none"
         }}
       >
-        <div style={{ paddingBottom: "12%" }} id="Le terroir" />
+        <div style={{ paddingBottom: "17%" }} id="Le terroir" />
         <h2
           style={{
             fontSize: "24px",
             color: "#D5B23C",
             textAlign: "center",
-            marginBottom: "35px"
+            marginBottom: "6%"
           }}
         >
           Nos parcelles
@@ -237,7 +237,7 @@ const ImageParallaxReact = () => (
         <img
           src="image/carte.png"
           alt="carte des parcelles"
-          style={{ width: "100%", height: "350px", marginBottom: "35px" }}
+          style={{ width: "100%", height: "350px" }}
         />
         <img
           src="image/lion.png"
