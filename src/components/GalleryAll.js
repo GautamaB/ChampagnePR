@@ -227,11 +227,11 @@ export default class GalleryAll extends React.Component {
         <div id="Galerie Photos" />
         <h1
           style={{
-            size: "20px",
+            fontSize: "50px",
             textAlign: "center",
             color: "#D5B23C",
-            marginTop: "25px",
-            marginBottom: "25px"
+            marginTop: "2%",
+            marginBottom: "2%"
           }}
         >
           Galerie Photos
@@ -239,10 +239,10 @@ export default class GalleryAll extends React.Component {
         <Col
           sm="12"
           md={{ size: 4, offset: 4 }}
-          style={{ marginTop: "25px", marginBottom: "55px" }}
+          style={{ marginTop: "2%", marginBottom: "5%" }}
         >
           <Link to="/">
-            <Button style={{ marginLeft: "35%" }} color="primary">
+            <Button style={{ marginLeft: "38%" }} color="primary">
               Retour
             </Button>
           </Link>
@@ -259,7 +259,7 @@ export default class GalleryAll extends React.Component {
           currentImage={this.state.currentImage}
           isOpen={this.state.lightboxIsOpen}
         />
-        <div style={{ marginBottom: "35px" }} />
+        <div style={{ marginBottom: "5%" }} />
       </Container>
     );
   }

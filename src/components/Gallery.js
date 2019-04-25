@@ -87,14 +87,14 @@ export default class GalleryPhoto extends React.Component {
   render() {
     return (
       <Container>
-        <div style={{ paddingTop: "70px" }} id="Galerie Photos" />
+        <div style={{ paddingTop: "4%" }} id="Galerie Photos" />
         <h1
           style={{
-            size: "20px",
+            fontSize: "50px",
             textAlign: "center",
             color: "#D5B23C",
-            marginTop: "25px",
-            marginBottom: "25px"
+            marginTop: "2%",
+            marginBottom: "2%"
           }}
         >
           Galerie Photos
