@@ -28,10 +28,9 @@ export class MapContainer extends Component {
       <Map
         google={this.props.google}
         style={{
-          width: "90%",
-          height: "550px",
-          marginTop: "45px",
-          marginLeft: "45px"
+          width: "100%",
+          height: "430px",
+          margin: "14% 6%"
         }}
         initialCenter={{
           lat: 48.947992,
@@ -56,7 +55,7 @@ export class MapContainer extends Component {
             <img
               src="/image/entrée.jpg"
               alt="Entrée"
-              style={{ width: "150px", height: "100px", marginLeft: "20px" }}
+              style={{ width: "150px", height: "80px", marginLeft: "20px" }}
             />
           </div>
         </InfoWindow>

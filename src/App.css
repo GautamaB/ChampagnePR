@@ -37,6 +37,12 @@ p.resize {
 p.responsive {
   font-size: 12px;
 }
+p.footer {
+  font-size: 14px;
+}
+p.footerName {
+  font-size: 35px;
+}
 @media only screen and (max-width: 1024px) {
   p {
     font-size: 14px;
@@ -49,6 +55,12 @@ p.responsive {
   }
   p.responsive {
     font-size: 11px;
+  }
+  p.footer {
+    font-size: 14px;
+  }
+  p.footerName {
+    font-size: 25px;
   }
 }
 
@@ -65,7 +77,14 @@ p.responsive {
   p.resize {
     font-size: 9px;
   }
+  p.footer {
+    font-size: 12px;
+  }
+  p.footerName {
+    font-size: 20px;
+  }
 }
+
 @media only screen and (max-width: 568px) {
   p {
     font-size: 12px;
@@ -78,5 +97,11 @@ p.responsive {
   }
   p.resize {
     font-size: 9px;
+  }
+  p.footer {
+    font-size: 8px;
+  }
+  p.footerName {
+    font-size: 18px;
   }
 }

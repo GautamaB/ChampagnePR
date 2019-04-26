@@ -16,61 +16,56 @@ const footer = () => {
           border: "5px solid #D5B23C",
           width: "90px",
           height: "90px",
-          marginLeft: "auto",
-          marginRight: "auto",
-          display: "block",
-          marginTop: "25px",
-          marginBottom: "-50px"
+          margin: " 2% auto -46px auto",
+          display: "block"
         }}
       />
       <p style={{ border: "3px solid #D5B23C" }} />
       <Row>
         <Col xs={{ size: 10, order: 1 }} md={{ size: 5, offset: 1, order: 1 }}>
-          <div style={{ paddingBottom: "65px" }} id="Contact" />
-          <h1 style={{ paddingLeft: "25px" }}>Contact : </h1>
-          <div
-            class="overlay-image"
-            style={{ padding: " 25px  0px 55px 25px " }}
-          >
-            <img
-              className="image"
-              src="image/logo.png"
-              alt="logo"
-              style={{ width: "550px", height: "450px" }}
-            />
-            <div className="text" style={{ margin: "-200px 0 0 -5px" }}>
-              <p style={{ color: "grey" }}>
+          <div style={{ marginBottom: "13%" }} id="Contact" />
+          <h1 style={{ marginLeft: "2%" }}>Contact : </h1>
+          <div class="overlay-image">
+            <div>
+              <img
+                className="image"
+                src="image/logo.png"
+                alt="logo"
+                style={{ width: "60%", marginLeft: "16%", marginTop: "7%" }}
+              />
+            </div>
+            <div
+              className="text"
+              style={{ marginTop: "16%", margin: "-170px 0 0 -5px" }}
+            >
+              <p className="footer" style={{ color: "grey" }}>
                 <strong>CHAMPAGNE</strong>
               </p>
-              <br />
-              <br />
-              <p>
+              <p className="footerName">
                 <strong
                   style={{
                     color: "black",
-                    fontFamily: "Dancing Script",
-                    fontSize: "35px"
+                    fontFamily: "Dancing Script"
                   }}
                 >
                   Patrick Regnault
                 </strong>
               </p>
-              <br />
-              <strong>
-                45 Grande Rue <br />
-                51190 LE MESNIL-sur-OGER <br />
-              </strong>
-              <br />
-              Tél. : 03 26 57 54 50
-              <br /> e-mail : champagne-p-regnault@orange.fr
+              <p className="footer">
+                <strong>
+                  45, Grande Rue <br />
+                  51190 LE MESNIL-sur-OGER <br />
+                </strong>
+                <br />
+                Tél. : 03 26 57 54 50
+                <br /> e-mail : champagne-p.regnault@orange.fr
+              </p>
             </div>
           </div>
           <Form />
         </Col>
         <Col xs={{ size: 10, order: 2 }} md={{ size: 5, order: 2 }}>
-          <div style={{ marginTop: "85px" }}>
-            <GoogleMap />
-          </div>
+          <GoogleMap />
         </Col>
       </Row>
     </div>
