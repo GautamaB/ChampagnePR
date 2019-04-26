@@ -15,14 +15,18 @@ const image8 = "image/11.jpg";
 const ImageParallaxReact = () => (
   <div>
     <Row>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 2 }}
+        md={{ size: 4, order: 1 }}
+        style={{ paddingRight: "0px" }}
+      >
         <Parallax bgImage={image1} strength={500}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
-        xs={{ size: 12 }}
-        md={{ size: 4 }}
+        xs={{ size: 12, order: 1 }}
+        md={{ size: 4, order: 2 }}
         style={{
           marginTop: "-13%",
           backgroundColor: "#fff6db",
@@ -90,18 +94,29 @@ const ImageParallaxReact = () => (
         />
         <hr style={{ background: "black" }} />
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 3 }}
+        md={{ size: 4, order: 3 }}
+        style={{ paddingLeft: "0px" }}
+      >
         <Parallax bgImage={image2} strength={500}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
+    </Row>
+    <Row>
+      <Col
+        xs={{ size: 12, order: 2 }}
+        md={{ size: 4, order: 1 }}
+        style={{ paddingRight: "0px" }}
+      >
         <Parallax bgImage={image3} strength={500}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
-        md={{ size: 4 }}
+        xs={{ size: 12, order: 1 }}
+        md={{ size: 4, order: 2 }}
         style={{
           backgroundColor: "#fff6db",
           borderWidth: "5px",
@@ -111,7 +126,6 @@ const ImageParallaxReact = () => (
           borderBottom: "none"
         }}
       >
-        {" "}
         <p
           style={{
             textAlign: "justify",
@@ -146,19 +160,29 @@ const ImageParallaxReact = () => (
         />
         <hr style={{ background: "black" }} />
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 3 }}
+        md={{ size: 4, order: 3 }}
+        style={{ paddingLeft: "0px" }}
+      >
         <Parallax bgImage={image4} strength={200}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
+    </Row>
+    <Row>
+      <Col
+        xs={{ size: 12, order: 2 }}
+        md={{ size: 4, order: 1 }}
+        style={{ paddingRight: "0px" }}
+      >
         <Parallax bgImage={image5} strength={200}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
-        xs={{ size: 12 }}
-        md={{ size: 4 }}
+        xs={{ size: 12, order: 1 }}
+        md={{ size: 4, order: 2 }}
         style={{
           backgroundColor: "#fff6db",
           borderWidth: "5px",
@@ -202,19 +226,29 @@ const ImageParallaxReact = () => (
         />
         <hr style={{ background: "black" }} />
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 3 }}
+        md={{ size: 4, order: 3 }}
+        style={{ paddingLeft: "0px" }}
+      >
         <Parallax bgImage={image6} strength={200}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
+    </Row>
+    <Row>
+      <Col
+        xs={{ size: 12, order: 2 }}
+        md={{ size: 4, order: 1 }}
+        style={{ paddingRight: "0px" }}
+      >
         <Parallax bgImage={image7} strength={200}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
-        xs={{ size: 12 }}
-        md={{ size: 4 }}
+        xs={{ size: 12, order: 1 }}
+        md={{ size: 4, order: 2 }}
         style={{
           backgroundColor: "#fff6db",
           borderWidth: "5px",
@@ -252,7 +286,11 @@ const ImageParallaxReact = () => (
           }}
         />
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 3 }}
+        md={{ size: 4, order: 3 }}
+        style={{ paddingLeft: "0px" }}
+      >
         <Parallax bgImage={image8} strength={200}>
           <div style={{ height: 700 }} />
         </Parallax>

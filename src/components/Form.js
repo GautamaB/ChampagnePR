@@ -5,11 +5,8 @@ export default class FormContact extends React.Component {
   render() {
     return (
       <Row>
-        <Col
-          // xs={{ size: 11, offeset: 1 }}
-          // md={{ size: 5, offset: 1 }}
-          style={{ marginTop: "3%" }}
-        >
+        <Col style={{ marginTop: "10%" }}>
+          <p style={{ marginLeft: "1%" }}>Pour prendre contact directement :</p>
           <Form style={{ marginLeft: "3%" }}>
             <FormGroup>
               <Label style={{ marginLeft: "3%" }} for="exampleEmail">
