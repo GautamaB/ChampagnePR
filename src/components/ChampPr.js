@@ -8,25 +8,23 @@ const ChampPr = () => {
     <div>
       <Row>
         <Col>
-          <div id="Nos vins" />
+          <div style={{ marginBottom: "6%" }} id="Nos vins" />
           <h1
             style={{
-              size: "20px",
+              fontSize: "50px",
               textAlign: "center",
-              color: "#D5B23C",
-              marginTop: "25px",
-              marginBottom: "25px"
+              color: "#D5B23C"
             }}
           >
             Nos Vins
           </h1>
           <h2
             style={{
-              size: "20px",
+              fontSize: "25px",
               textAlign: "center",
               color: "#D5B23C",
-              marginTop: "25px",
-              marginBottom: "45px"
+              marginTop: "1%",
+              marginBottom: "1%"
             }}
           >
             Les Bouteilles de Patrick Regnault
@@ -40,11 +38,10 @@ const ChampPr = () => {
         }}
       >
         <Col
-          xs={{ size: 6, offset: 0 }}
+          xs={{ size: 6 }}
           md={{ size: 4 }}
           style={{
-            color: "black",
-            marginLeft: "50px"
+            color: "black"
           }}
         >
           <div>
@@ -52,8 +49,8 @@ const ChampPr = () => {
               style={{
                 fontSize: "28px",
                 color: "#d2d441",
-                marginTop: "25px",
-                marginBottom: "25px",
+                marginTop: "2%",
+                marginBottom: "3%",
                 textAlign: "center",
                 transform: "rotate(-5deg)"
               }}
@@ -63,8 +60,8 @@ const ChampPr = () => {
               Blanc de Blancs
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -78,25 +75,28 @@ const ChampPr = () => {
               <strong>5g</strong> de vin presque nature, un chardonnay
               <br /> vrai sans pudeur
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "210px"
+              }}
+            >
               <img
                 src="/image/brut.png"
                 alt="brut"
                 style={{
-                  width: "150px",
-                  height: "100px",
-                  marginBottom: "5px",
-                  marginLeft: "75px"
+                  width: "120px",
+                  height: "80px",
+                  float: "left"
                 }}
               />
               <p
+                className="resize"
                 style={{
-                  fontSize: "18px",
-                  float: "right",
                   color: "#d2d441",
-                  marginTop: "15px",
-                  marginRight: "85px",
-                  transform: "rotate(-10deg)"
+                  transform: "rotate(-10deg)",
+                  marginLeft: "125px"
                 }}
               >
                 Vivacité & <br />
@@ -105,7 +105,7 @@ const ChampPr = () => {
             </div>
           </div>
         </Col>
-        <Col xs={{ size: 6 }} md={{ size: 7 }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
           <Parallax
             bgImage={"image/18.jpg"}
             bgImageAlt="champagne brut et extra brut"
@@ -125,8 +125,7 @@ const ChampPr = () => {
           xs={{ size: 6, offset: 0 }}
           md={{ size: 4 }}
           style={{
-            color: "black",
-            marginLeft: "50px"
+            color: "black"
           }}
         >
           <div style={{ marginTop: "35px" }}>
@@ -134,8 +133,8 @@ const ChampPr = () => {
               style={{
                 fontSize: "28px",
                 color: "#d65829",
-                marginTop: "15px",
-                marginBottom: "25px",
+                marginTop: "2%",
+                marginBottom: "3%",
                 textAlign: "center",
                 transform: "rotate(-5deg)"
               }}
@@ -144,8 +143,8 @@ const ChampPr = () => {
               Brut Millésimé
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -159,25 +158,28 @@ const ChampPr = () => {
               <br /> Un équilibre entre
               <br />
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "210px"
+              }}
+            >
               <img
                 src="/image/BrutMillésimé.png"
                 alt="Brut Millésimé"
                 style={{
-                  width: "150px",
-                  height: "100px",
-                  marginBottom: "5px",
-                  marginLeft: "75px"
+                  width: "120px",
+                  height: "80px",
+                  float: "left"
                 }}
               />
               <p
+                className="resize"
                 style={{
-                  fontSize: "18px",
-                  float: "right",
-                  color: "#d65829",
-                  marginTop: "15px",
-                  marginRight: "85px",
-                  transform: "rotate(-10deg)"
+                  color: "#d2d441",
+                  transform: "rotate(-10deg)",
+                  marginLeft: "122px"
                 }}
               >
                 Fraîcheur & <br />
@@ -186,7 +188,7 @@ const ChampPr = () => {
             </div>
           </div>
         </Col>
-        <Col xs={{ size: 6 }} md={{ size: 7 }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
           <Parallax
             bgImage={"image/15.jpg"}
             bgImageAlt="champagne Brut Millésimé"
@@ -206,8 +208,7 @@ const ChampPr = () => {
           xs={{ size: 6, offset: 0 }}
           md={{ size: 4 }}
           style={{
-            color: "black",
-            marginLeft: "50px"
+            color: "black"
           }}
         >
           <div style={{ marginTop: "35px" }}>
@@ -215,8 +216,8 @@ const ChampPr = () => {
               style={{
                 fontSize: "28px",
                 color: "#000000",
-                marginTop: "15px",
-                marginBottom: "25px",
+                marginTop: "2%",
+                marginBottom: "3%",
                 textAlign: "center",
                 transform: "rotate(-5deg)"
               }}
@@ -225,8 +226,8 @@ const ChampPr = () => {
               Brut Réserve
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -242,34 +243,37 @@ const ChampPr = () => {
               <br />
               et les fruits compotés
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "175px"
+              }}
+            >
               <img
                 src="/image/réserve.png"
                 alt="Brut Réserve"
                 style={{
-                  width: "100px",
+                  width: "90px",
                   height: "120px",
-                  marginBottom: "5px",
-                  marginLeft: "125px"
+                  float: "left"
                 }}
               />
               <p
+                className="resize"
                 style={{
-                  fontSize: "18px",
-                  float: "right",
                   color: "#000000",
-                  marginTop: "15px",
-                  marginRight: "85px",
-                  transform: "rotate(-10deg)"
+                  transform: "rotate(-10deg)",
+                  marginLeft: "94px"
                 }}
               >
-                Fraîcheur & <br />
-                Richesse
+                Finesse & <br />
+                Structure
               </p>
             </div>
           </div>
         </Col>
-        <Col xs={{ size: 6 }} md={{ size: 7 }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
           <Parallax
             bgImage={"image/20.jpg"}
             bgImageAlt="champagne  Brut Réserve"
@@ -289,8 +293,7 @@ const ChampPr = () => {
           xs={{ size: 6, offset: 0 }}
           md={{ size: 4 }}
           style={{
-            color: "black",
-            marginLeft: "50px"
+            color: "black"
           }}
         >
           <div style={{ marginTop: "35px" }}>
@@ -298,8 +301,8 @@ const ChampPr = () => {
               style={{
                 fontSize: "28px",
                 color: "#584764",
-                marginTop: "15px",
-                marginBottom: "25px",
+                marginTop: "2%",
+                marginBottom: "3%",
                 textAlign: "center",
                 transform: "rotate(-5deg)"
               }}
@@ -308,8 +311,8 @@ const ChampPr = () => {
               Esprit d'Auteur
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -326,24 +329,27 @@ const ChampPr = () => {
               <br />
               et le nouveau
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "175px"
+              }}
+            >
               <img
                 src="/image/esprit.png"
                 alt="Esprit d'Auteur"
                 style={{
-                  width: "100px",
+                  width: "90px",
                   height: "120px",
-                  marginBottom: "5px",
-                  marginLeft: "115px"
+                  float: "left"
                 }}
               />
               <p
+                className="resize"
                 style={{
-                  fontSize: "18px",
-                  float: "right",
                   color: "#584764",
-                  marginTop: "15px",
-                  marginRight: "85px",
+                  marginLeft: "94px",
                   transform: "rotate(-10deg)"
                 }}
               >
@@ -353,7 +359,7 @@ const ChampPr = () => {
             </div>
           </div>
         </Col>
-        <Col xs={{ size: 6 }} md={{ size: 7 }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
           <Parallax
             bgImage={"image/Esprit.jpg"}
             bgImageAlt="champagne Esprit d'Auteur"
@@ -373,8 +379,7 @@ const ChampPr = () => {
           xs={{ size: 6, offset: 0 }}
           md={{ size: 4 }}
           style={{
-            color: "black",
-            marginLeft: "50px"
+            color: "black"
           }}
         >
           <div style={{ marginTop: "35px" }}>
@@ -382,8 +387,8 @@ const ChampPr = () => {
               style={{
                 fontSize: "28px",
                 color: "#b83940",
-                marginTop: "15px",
-                marginBottom: "25px",
+                marginTop: "2%",
+                marginBottom: "3%",
                 textAlign: "center",
                 transform: "rotate(-5deg)"
               }}
@@ -392,8 +397,8 @@ const ChampPr = () => {
               Brut Rosé
             </h2>
             <p
+              className="resizepr"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -411,24 +416,27 @@ const ChampPr = () => {
               <br />
               en terrasse au soleil
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "210px"
+              }}
+            >
               <img
                 src="/image/rosé.png"
                 alt="Brut rosé"
                 style={{
-                  width: "120px",
-                  height: "100px",
-                  marginBottom: "5px",
-                  marginLeft: "85px"
+                  width: "115px",
+                  height: "80px",
+                  float: "left"
                 }}
               />
               <p
+                className="resize"
                 style={{
-                  fontSize: "18px",
-                  float: "right",
                   color: "#b83940",
-                  marginTop: "15px",
-                  marginRight: "85px",
+                  marginLeft: "100px",
                   transform: "rotate(-10deg)"
                 }}
               >
@@ -438,7 +446,7 @@ const ChampPr = () => {
             </div>
           </div>
         </Col>
-        <Col xs={{ size: 6 }} md={{ size: 7 }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
           <Parallax
             bgImage={"image/16.jpg"}
             bgImageAlt="champagne Brut Rosé"

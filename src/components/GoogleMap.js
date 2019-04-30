@@ -8,14 +8,14 @@ export class MapContainer extends Component {
     selectedPlace: {}
   };
 
-  onMarkerClick = (props, marker, e) =>
+  onMarkerClick = (props, marker) =>
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
       showingInfoWindow: true
     });
 
-  onMapClicked = props => {
+  onMapClicked = () => {
     if (this.state.showingInfoWindow) {
       this.setState({
         showingInfoWindow: false,
@@ -23,15 +23,15 @@ export class MapContainer extends Component {
       });
     }
   };
+
   render() {
     return (
       <Map
         google={this.props.google}
         style={{
-          width: "90%",
-          height: "550px",
-          marginTop: "45px",
-          marginLeft: "45px"
+          width: "100%",
+          height: "430px",
+          margin: "14% 6%"
         }}
         initialCenter={{
           lat: 48.947992,
@@ -48,15 +48,14 @@ export class MapContainer extends Component {
           marker={this.state.activeMarker}
           visible={this.state.showingInfoWindow}
         >
-          >
           <div>
             <h1 style={{ fontSize: "18px", textAlign: "center" }}>
-              Champagne Patrick Regnault
+              {this.state.selectedPlace.name}
             </h1>
             <img
               src="/image/entrée.jpg"
               alt="Entrée"
-              style={{ width: "150px", height: "100px", marginLeft: "20px" }}
+              style={{ width: "150px", height: "80px", marginLeft: "20px" }}
             />
           </div>
         </InfoWindow>

@@ -22,3 +22,92 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.link {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
+/* p of ChampPr */
+p.resizepr {
+  font-size: 14px;
+}
+/* second p in ChampPr */
+p.resize {
+  font-size: 13px;
+}
+/* p of ChampSr */
+p.responsive {
+  font-size: 12px;
+}
+p.footer {
+  font-size: 14px;
+}
+p.footerName {
+  font-size: 35px;
+}
+@media only screen and (max-width: 1024px) {
+  .link {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  p.resizepr {
+    font-size: 12px;
+  }
+  p.resize {
+    font-size: 11px;
+  }
+  p.responsive {
+    font-size: 11px;
+  }
+  p.footer {
+    font-size: 14px;
+  }
+  p.footerName {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 12px;
+  }
+  p.resizepr {
+    font-size: 10px;
+  }
+  p.responsive {
+    font-size: 10px;
+  }
+  p.resize {
+    font-size: 9px;
+  }
+  p.footer {
+    font-size: 12px;
+  }
+  p.footerName {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  p {
+    font-size: 12px;
+  }
+  p.resizepr {
+    font-size: 10px;
+  }
+  p.responsive {
+    font-size: 9px;
+  }
+  p.resize {
+    font-size: 9px;
+  }
+  p.footer {
+    font-size: 8px;
+  }
+  p.footerName {
+    font-size: 18px;
+  }
+}

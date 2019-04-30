@@ -5,15 +5,16 @@ export default class FormContact extends React.Component {
   render() {
     return (
       <Row>
-        <Col>
-          <Form style={{ paddingLeft: "55px", marginBottom: "55px" }}>
+        <Col style={{ marginTop: "10%" }}>
+          <p style={{ marginLeft: "1%" }}>Pour prendre contact directement :</p>
+          <Form style={{ marginLeft: "3%" }}>
             <FormGroup>
-              <Label style={{ marginLeft: "25px" }} for="exampleEmail">
+              <Label style={{ marginLeft: "3%" }} for="exampleEmail">
                 Nom :
               </Label>
               <Col xs="12" md="9">
                 <Input
-                  style={{ marginLeft: "35px" }}
+                  style={{ marginLeft: "4%" }}
                   type="text"
                   name="nom"
                   required
@@ -21,12 +22,12 @@ export default class FormContact extends React.Component {
               </Col>
             </FormGroup>
             <FormGroup>
-              <Label style={{ marginLeft: "25px" }} for="exampleEmail">
+              <Label style={{ marginLeft: "3%" }} for="exampleEmail">
                 Email :
               </Label>
               <Col xs="12" md="9">
                 <Input
-                  style={{ marginLeft: "35px" }}
+                  style={{ marginLeft: "4%" }}
                   type="email"
                   name="email"
                   id="exampleEmail"
@@ -35,13 +36,13 @@ export default class FormContact extends React.Component {
               </Col>
             </FormGroup>
             <FormGroup>
-              <Label style={{ marginLeft: "25px" }} for="exampleText">
+              <Label style={{ marginLeft: "2%" }} for="exampleText">
                 Message :
               </Label>
               <Col xs="12" md="9">
                 <Input
                   style={{
-                    marginLeft: "35px",
+                    marginLeft: "3%",
                     height: "200px",
                     boxShadow: "none"
                   }}
@@ -52,8 +53,10 @@ export default class FormContact extends React.Component {
                 />
               </Col>
             </FormGroup>
-            <Col xs={{ size: 5, offset: 2 }} md={{ size: 5, offset: 3 }}>
-              <Button color="success">Envoyer le formulaire</Button>
+            <Col xs={{ size: 5, offset: 2 }} md={{ size: 5, offset: 2 }}>
+              <Button color="success" style={{ marginBottom: "10%" }}>
+                Envoyer le formulaire
+              </Button>
             </Col>
           </Form>
         </Col>

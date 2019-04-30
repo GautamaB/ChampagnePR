@@ -10,11 +10,11 @@ const bouteille = () => {
         <Col>
           <h2
             style={{
-              size: "20px",
+              fontSize: "25px",
               textAlign: "center",
               color: "#D5B23C",
-              marginTop: "25px",
-              marginBottom: "25px"
+              marginTop: "5%",
+              marginBottom: "2%"
             }}
           >
             Les Bouteilles de Stéphane Regnault
@@ -22,7 +22,7 @@ const bouteille = () => {
         </Col>
       </Row>
       <Row style={{ backgroundColor: "#fff6db" }}>
-        <Col xs={{ size: 6 }} md={{ size: 7 }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
           <Parallax
             bgImage={"image/Lydien.png"}
             bgImageAlt="Lydien 14"
@@ -32,11 +32,11 @@ const bouteille = () => {
           </Parallax>
         </Col>
         <Col
-          xs={{ size: 6, offset: 0 }}
-          md={{ size: 4 }}
+          xs={{ size: 5 }}
+          md={{ size: 3 }}
           style={{
             color: "black",
-            marginLeft: "50px"
+            marginLeft: "3%"
           }}
         >
           <div style={{ marginTop: "35px" }}>
@@ -44,8 +44,7 @@ const bouteille = () => {
               style={{
                 fontSize: "28px",
                 color: "#091176",
-                marginTop: "15px",
-                marginBottom: "25px",
+                marginBottom: "3%",
                 textAlign: "center",
                 transform: "rotate(-5deg)"
               }}
@@ -54,8 +53,8 @@ const bouteille = () => {
               Dorien N°14
             </h2>
             <p
+              className="responsive"
               style={{
-                fontSize: "11px",
                 textAlign: "center"
               }}
             >
@@ -73,25 +72,28 @@ const bouteille = () => {
               <br />
               vel consequat est.
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "165px"
+              }}
+            >
               <img
                 src="/image/Dorien 14.png"
                 alt="Dorien 14"
                 style={{
                   width: "100px",
                   height: "140px",
-                  marginBottom: "5px",
-                  marginLeft: "100px"
+                  float: "left"
                 }}
               />
               <p
+                className="resize"
                 style={{
-                  fontSize: "18px",
-                  float: "right",
                   color: "#091176",
-                  marginTop: "15px",
-                  marginRight: "85px",
-                  transform: "rotate(-10deg)"
+                  transform: "rotate(-10deg)",
+                  marginLeft: "110px"
                 }}
               >
                 Lorem & <br />
@@ -102,7 +104,7 @@ const bouteille = () => {
         </Col>
       </Row>
       <Row style={{ backgroundColor: "#fff6db" }}>
-        <Col xs={{ size: 6 }} md={{ size: 7 }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
           <Parallax
             bgImage={"image/Lydien.png"}
             bgImageAlt="Lydien n°14"
@@ -112,11 +114,11 @@ const bouteille = () => {
           </Parallax>
         </Col>
         <Col
-          xs={{ size: 6, offset: 0 }}
-          md={{ size: 4 }}
+          xs={{ size: 5 }}
+          md={{ size: 3 }}
           style={{
             color: "black",
-            marginLeft: "50px"
+            marginLeft: "3%"
           }}
         >
           <div style={{ marginTop: "35px" }}>
@@ -124,8 +126,7 @@ const bouteille = () => {
               style={{
                 fontSize: "28px",
                 color: "#091176",
-                marginTop: "15px",
-                marginBottom: "25px",
+                marginBottom: "3%",
                 textAlign: "center",
                 transform: "rotate(-5deg)"
               }}
@@ -134,8 +135,8 @@ const bouteille = () => {
               Lydien N°14
             </h2>
             <p
+              className="responsive"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -153,24 +154,27 @@ const bouteille = () => {
               <br />
               vel consequat est.
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "175px"
+              }}
+            >
               <img
                 src="/image/Lydien 14.png"
                 alt="Lydien 14"
                 style={{
                   width: "100px",
                   height: "140px",
-                  marginBottom: "5px",
-                  marginLeft: "100px"
+                  float: "left"
                 }}
               />
               <p
+                className="resize"
                 style={{
-                  fontSize: "18px",
-                  float: "right",
                   color: "#091176",
-                  marginTop: "15px",
-                  marginRight: "85px",
+                  marginLeft: "110px",
                   transform: "rotate(-10deg)"
                 }}
               >
@@ -182,7 +186,7 @@ const bouteille = () => {
         </Col>
       </Row>
       <Row style={{ backgroundColor: "#fff6db" }}>
-        <Col xs={{ size: 6 }} md={{ size: 7 }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
           <Parallax
             bgImage={"image/Mixolydien.png"}
             bgImageAlt="Mixolydien n°14"
@@ -192,11 +196,11 @@ const bouteille = () => {
           </Parallax>
         </Col>
         <Col
-          xs={{ size: 6, offset: 0 }}
-          md={{ size: 4 }}
+          xs={{ size: 5 }}
+          md={{ size: 3 }}
           style={{
             color: "black",
-            marginLeft: "50px"
+            marginLeft: "3%"
           }}
         >
           <div style={{ marginTop: "35px" }}>
@@ -204,8 +208,7 @@ const bouteille = () => {
               style={{
                 fontSize: "28px",
                 color: "#091176",
-                marginTop: "15px",
-                marginBottom: "25px",
+                marginBottom: "3%",
                 textAlign: "center",
                 transform: "rotate(-5deg)"
               }}
@@ -214,8 +217,8 @@ const bouteille = () => {
               Mixolydien N°14
             </h2>
             <p
+              className="responsive"
               style={{
-                fontSize: "12px",
                 textAlign: "center"
               }}
             >
@@ -233,24 +236,27 @@ const bouteille = () => {
               <br />
               vel consequat est.
             </p>
-            <div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "175px"
+              }}
+            >
               <img
                 src="/image/Mixolydien 14.png"
                 alt="Mixolydien 14"
                 style={{
                   width: "100px",
                   height: "140px",
-                  marginBottom: "5px",
-                  marginLeft: "100px"
+                  float: "left"
                 }}
               />
               <p
+                className="resize"
                 style={{
-                  fontSize: "18px",
-                  float: "right",
                   color: "#091176",
-                  marginTop: "15px",
-                  marginRight: "85px",
+                  marginLeft: "110px",
                   transform: "rotate(-10deg)"
                 }}
               >

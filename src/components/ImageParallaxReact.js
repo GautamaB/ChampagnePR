@@ -15,16 +15,20 @@ const image8 = "image/11.jpg";
 const ImageParallaxReact = () => (
   <div>
     <Row>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 2 }}
+        md={{ size: 4, order: 1 }}
+        style={{ paddingRight: "0px" }}
+      >
         <Parallax bgImage={image1} strength={500}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
-        xs={{ size: 12 }}
-        md={{ size: 4 }}
+        xs={{ size: 12, order: 1 }}
+        md={{ size: 4, order: 2 }}
         style={{
-          marginTop: "-255px",
+          marginTop: "-13%",
           backgroundColor: "#fff6db",
           borderWidth: "5px",
           borderStyle: "solid",
@@ -36,25 +40,20 @@ const ImageParallaxReact = () => (
           src="image/logo facture.png"
           alt=""
           style={{
-            marginTop: "55px",
-            height: "105px",
+            marginTop: "10%",
+            height: "12%",
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
             width: "50%"
           }}
         />
-
-        <div
-          id="L'esprit de la maison"
-          style={{ paddingTop: "35px", marginTop: "25px" }}
-        />
-
+        <div id="L'esprit de la maison" style={{ paddingTop: "7%" }} />
         <h1
           style={{
             textAlign: "center",
-            marginTop: "60px",
-            fontSize: "26px",
+            marginTop: "12%",
+            marginBottom: "27%",
             color: "#D5B23C"
           }}
         >
@@ -63,11 +62,11 @@ const ImageParallaxReact = () => (
         <p
           style={{
             textAlign: "justify",
-            marginTop: "100px",
-            marginBottom: "90px",
+            marginTop: "15%",
+            marginBottom: "11%",
             color: "#000000",
-            paddingLeft: "15px",
-            paddingRight: "15px"
+            paddingLeft: "10%",
+            paddingRight: "10%"
           }}
         >
           La protection de l'environnement est au coeur de toutes les
@@ -86,30 +85,35 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            float: "right",
+            marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
         />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <hr style={{ background: "black" }} />
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 3 }}
+        md={{ size: 4, order: 3 }}
+        style={{ paddingLeft: "0px" }}
+      >
         <Parallax bgImage={image2} strength={500}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
-
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
+    </Row>
+    <Row>
+      <Col
+        xs={{ size: 12, order: 2 }}
+        md={{ size: 4, order: 1 }}
+        style={{ paddingRight: "0px" }}
+      >
         <Parallax bgImage={image3} strength={500}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
-        md={{ size: 4 }}
+        xs={{ size: 12, order: 1 }}
+        md={{ size: 4, order: 2 }}
         style={{
           backgroundColor: "#fff6db",
           borderWidth: "5px",
@@ -122,12 +126,11 @@ const ImageParallaxReact = () => (
         <p
           style={{
             textAlign: "justify",
-            marginTop: "75px",
-            fontsize: "28px",
-            marginBottom: "130px",
+            marginTop: "30%",
+            marginBottom: "21%",
             color: "#000000",
-            paddingLeft: "15px",
-            paddingRight: "15px"
+            paddingLeft: "10%",
+            paddingRight: "10%"
           }}
         >
           Pourquoi notre exploitation n'est pas certifier Agriculture
@@ -148,30 +151,35 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            float: "right",
+            marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
         />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <hr style={{ background: "black" }} />
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 3 }}
+        md={{ size: 4, order: 3 }}
+        style={{ paddingLeft: "0px" }}
+      >
         <Parallax bgImage={image4} strength={200}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
+    </Row>
+    <Row>
+      <Col
+        xs={{ size: 12, order: 2 }}
+        md={{ size: 4, order: 1 }}
+        style={{ paddingRight: "0px" }}
+      >
         <Parallax bgImage={image5} strength={200}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
-        xs={{ size: 12 }}
-        md={{ size: 4 }}
+        xs={{ size: 12, order: 1 }}
+        md={{ size: 4, order: 2 }}
         style={{
           backgroundColor: "#fff6db",
           borderWidth: "5px",
@@ -184,12 +192,11 @@ const ImageParallaxReact = () => (
         <p
           style={{
             textAlign: "justify",
-            marginTop: "75px",
-            fontsize: "28px",
-            marginBottom: "135px",
+            marginTop: "30%",
+            marginBottom: "21%",
             color: "#000000",
-            paddingLeft: "15px",
-            paddingRight: "15px"
+            paddingLeft: "10%",
+            paddingRight: "10%"
           }}
         >
           Pour aller un peu plus loin, nous utilisons aussi des plantes pour
@@ -210,30 +217,35 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            float: "right",
+            marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
         />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <hr style={{ background: "black" }} />
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 3 }}
+        md={{ size: 4, order: 3 }}
+        style={{ paddingLeft: "0px" }}
+      >
         <Parallax bgImage={image6} strength={200}>
           <div style={{ height: 700 }} />
         </Parallax>
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingRight: "0px" }}>
+    </Row>
+    <Row>
+      <Col
+        xs={{ size: 12, order: 2 }}
+        md={{ size: 4, order: 1 }}
+        style={{ paddingRight: "0px" }}
+      >
         <Parallax bgImage={image7} strength={200}>
-          <div style={{ height: 640 }} />
+          <div style={{ height: 700 }} />
         </Parallax>
       </Col>
       <Col
-        xs={{ size: 12 }}
-        md={{ size: 4 }}
+        xs={{ size: 12, order: 1 }}
+        md={{ size: 4, order: 2 }}
         style={{
           backgroundColor: "#fff6db",
           borderWidth: "5px",
@@ -242,13 +254,13 @@ const ImageParallaxReact = () => (
           borderTop: "none"
         }}
       >
-        <div style={{ paddingBottom: "70px" }} id="Le terroir" />
+        <div style={{ paddingTop: "22%" }} id="Le terroir" />
         <h2
           style={{
             fontSize: "24px",
             color: "#D5B23C",
             textAlign: "center",
-            marginBottom: "35px"
+            marginBottom: "12%"
           }}
         >
           Nos parcelles
@@ -256,7 +268,7 @@ const ImageParallaxReact = () => (
         <img
           src="image/carte.png"
           alt="carte des parcelles"
-          style={{ width: "500px", height: "350px", marginBottom: "35px" }}
+          style={{ width: "100%", height: "350px" }}
         />
         <img
           src="image/lion.png"
@@ -265,18 +277,22 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            float: "right",
+            marginTop: "12%",
+            marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
         />
       </Col>
-      <Col xs={{ size: 12 }} md={{ size: 4 }} style={{ paddingLeft: "0px" }}>
+      <Col
+        xs={{ size: 12, order: 3 }}
+        md={{ size: 4, order: 3 }}
+        style={{ paddingLeft: "0px" }}
+      >
         <Parallax bgImage={image8} strength={200}>
-          <div style={{ height: 640 }} />
+          <div style={{ height: 700 }} />
         </Parallax>
       </Col>
     </Row>
   </div>
 );
-
 export default ImageParallaxReact;
