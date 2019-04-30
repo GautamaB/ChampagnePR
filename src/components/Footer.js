@@ -23,9 +23,9 @@ const footer = () => {
       <p style={{ border: "3px solid #D5B23C" }} />
       <Row>
         <Col xs={{ size: 10, order: 1 }} md={{ size: 5, offset: 1, order: 1 }}>
-          <div style={{ marginBottom: "13%" }} id="Contact" />
+          <div style={{ marginBottom: "17%" }} id="Contact" />
           <h1 style={{ marginLeft: "2%" }}>Contact : </h1>
-          <div class="overlay-image">
+          <div className="overlay-image">
             <div>
               <img
                 className="image"

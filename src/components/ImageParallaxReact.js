@@ -48,10 +48,7 @@ const ImageParallaxReact = () => (
             width: "50%"
           }}
         />
-        <div
-          id="L'esprit de la maison"
-          style={{ paddingTop: "5%", marginTop: "5%" }}
-        />
+        <div id="L'esprit de la maison" style={{ paddingTop: "7%" }} />
         <h1
           style={{
             textAlign: "center",
@@ -257,13 +254,13 @@ const ImageParallaxReact = () => (
           borderTop: "none"
         }}
       >
-        <div style={{ paddingBottom: "17%" }} id="Le terroir" />
+        <div style={{ paddingTop: "22%" }} id="Le terroir" />
         <h2
           style={{
             fontSize: "24px",
             color: "#D5B23C",
             textAlign: "center",
-            marginBottom: "6%"
+            marginBottom: "12%"
           }}
         >
           Nos parcelles

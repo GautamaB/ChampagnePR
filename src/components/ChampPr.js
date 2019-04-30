@@ -8,7 +8,7 @@ const ChampPr = () => {
     <div>
       <Row>
         <Col>
-          <div style={{ paddingBottom: "5%" }} id="Nos vins" />
+          <div style={{ marginBottom: "6%" }} id="Nos vins" />
           <h1
             style={{
               fontSize: "50px",
@@ -92,7 +92,7 @@ const ChampPr = () => {
                 }}
               />
               <p
-                            className="resize"
+                className="resize"
                 style={{
                   color: "#d2d441",
                   transform: "rotate(-10deg)",
@@ -175,7 +175,7 @@ const ChampPr = () => {
                 }}
               />
               <p
-                                          className="resize"
+                className="resize"
                 style={{
                   color: "#d2d441",
                   transform: "rotate(-10deg)",
@@ -260,7 +260,7 @@ const ChampPr = () => {
                 }}
               />
               <p
-                                          className="resize"
+                className="resize"
                 style={{
                   color: "#000000",
                   transform: "rotate(-10deg)",
@@ -346,7 +346,7 @@ const ChampPr = () => {
                 }}
               />
               <p
-                                          className="resize"
+                className="resize"
                 style={{
                   color: "#584764",
                   marginLeft: "94px",
@@ -433,7 +433,7 @@ const ChampPr = () => {
                 }}
               />
               <p
-                                          className="resize"
+                className="resize"
                 style={{
                   color: "#b83940",
                   marginLeft: "100px",

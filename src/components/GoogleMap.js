@@ -8,14 +8,14 @@ export class MapContainer extends Component {
     selectedPlace: {}
   };
 
-  onMarkerClick = (props, marker, e) =>
+  onMarkerClick = (props, marker) =>
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
       showingInfoWindow: true
     });
 
-  onMapClicked = props => {
+  onMapClicked = () => {
     if (this.state.showingInfoWindow) {
       this.setState({
         showingInfoWindow: false,
@@ -23,6 +23,7 @@ export class MapContainer extends Component {
       });
     }
   };
+
   render() {
     return (
       <Map
@@ -47,10 +48,9 @@ export class MapContainer extends Component {
           marker={this.state.activeMarker}
           visible={this.state.showingInfoWindow}
         >
-          >
           <div>
             <h1 style={{ fontSize: "18px", textAlign: "center" }}>
-              Champagne Patrick Regnault
+              {this.state.selectedPlace.name}
             </h1>
             <img
               src="/image/entrée.jpg"

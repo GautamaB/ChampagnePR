@@ -22,6 +22,9 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.link {
+  font-size: 20px;
+}
 p {
   font-size: 16px;
 }
@@ -44,6 +47,9 @@ p.footerName {
   font-size: 35px;
 }
 @media only screen and (max-width: 1024px) {
+  .link {
+    font-size: 18px;
+  }
   p {
     font-size: 14px;
   }

@@ -40,8 +40,8 @@ export default class NavBar extends React.Component {
               src="image/logo.png"
               alt=""
               style={{
-                width: "15%",
-                marginLeft: "5px"
+                width: "23%",
+                marginLeft: "5%"
               }}
             />
           </NavbarBrand>
@@ -53,40 +53,45 @@ export default class NavBar extends React.Component {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink
+                  className="link"
                   href="#L'esprit de la maison"
-                  style={{ fontSize: "24px", color: "#D5B23C" }}
+                  style={{ color: "#D5B23C" }}
                 >
                   L'esprit de la maison
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
+                  className="link"
                   href="#Le terroir"
-                  style={{ fontSize: "24px", color: "#D5B23C" }}
+                  style={{ color: "#D5B23C" }}
                 >
                   Le terroir
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
+                  className="link"
                   href="#Nos vins"
-                  style={{ fontSize: "24px", color: "#D5B23C" }}
+                  style={{ color: "#D5B23C" }}
                 >
                   Nos vins
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
+                  className="link"
                   href="#Galerie Photos"
-                  style={{ fontSize: "24px", color: "#D5B23C" }}
+                  style={{ color: "#D5B23C" }}
                 >
                   Galerie Photos
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
+                  className="link"
                   href="#Contact"
-                  style={{ fontSize: "24px", color: "#D5B23C" }}
+                  style={{ color: "#D5B23C" }}
                 >
                   Contact
                 </NavLink>
