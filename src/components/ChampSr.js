@@ -58,19 +58,20 @@ const bouteille = () => {
                 textAlign: "center"
               }}
             >
-              Lorem ipsum dolor sit amet,
+              <strong>Cépage :</strong> chardonnay.
               <br />
-              consectetur adipiscing elit.
+              <strong>Parcelle :</strong> Les Hautes Mottes
               <br />
+              Le Mesnil sur Oger — Grand Cru.
               <br />
-              Nullam nec lectus viverra,
+              Exposition sud, pente douce 2%
               <br />
-              sagittis est eu, hendrerit diam.
+              Sol superficiel très fin bien structuré, ouvert
               <br />
+              et grumeleux avec un enherbement à base de trèfle. <br />
+              Horizon de transition presque inexistant.
               <br />
-              Sed eget semper risus,
-              <br />
-              vel consequat est.
+              Sous-sol, craie très pure et compact.
             </p>
             <div
               style={{
@@ -96,8 +97,8 @@ const bouteille = () => {
                   marginLeft: "110px"
                 }}
               >
-                Lorem & <br />
-                ipsum
+                Exigeant, Délicat
+                <br /> & Complexe
               </p>
             </div>
           </div>
@@ -140,19 +141,18 @@ const bouteille = () => {
                 textAlign: "center"
               }}
             >
-              Lorem ipsum dolor sit amet,
+              <strong>Cépage :</strong> Chardonnay Muscaté
               <br />
-              consectetur adipiscing elit.
+              <strong>Parcelle :</strong> Le Chemin de Flavigny
               <br />
+              Oger — Grand Cru.
               <br />
-              Nullam nec lectus viverra,
+              Plein sud, pente moyenne 6 %.
               <br />
-              sagittis est eu, hendrerit diam.
+              Sol superficiel très léger avec enherbement naturel.
               <br />
-              <br />
-              Sed eget semper risus,
-              <br />
-              vel consequat est.
+              Horizon intermédiaire peu riche en craie. <br />
+              Sous-sol, craie compact légèrement fracturé.
             </p>
             <div
               style={{
@@ -178,8 +178,8 @@ const bouteille = () => {
                   transform: "rotate(-10deg)"
                 }}
               >
-                Lorem & <br />
-                ipsum
+                Rêveur, Joyeux
+                <br /> & Expressif
               </p>
             </div>
           </div>
@@ -222,19 +222,17 @@ const bouteille = () => {
                 textAlign: "center"
               }}
             >
-              Lorem ipsum dolor sit amet,
+              <strong>Cépage : </strong>chardonnay.
               <br />
-              consectetur adipiscing elit.
+              <strong>Parcelle :</strong> Le Moulin Oger — Grand Cru
               <br />
+              Plein Est, pente douce 2%. Sol superficiel bien
               <br />
-              Nullam nec lectus viverra,
+              structuré par un enherbement naturel.
               <br />
-              sagittis est eu, hendrerit diam.
+              Horizon intermédiaire plus riche en craie assez profond.
               <br />
-              <br />
-              Sed eget semper risus,
-              <br />
-              vel consequat est.
+              Sous-sol, craie soyeuse fortement fracturé.
             </p>
             <div
               style={{
@@ -260,8 +258,8 @@ const bouteille = () => {
                   transform: "rotate(-10deg)"
                 }}
               >
-                Lorem & <br />
-                ipsum
+                Équilibré, Réfléchi
+                <br /> & Soyeux
               </p>
             </div>
           </div>
