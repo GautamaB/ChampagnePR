@@ -34,15 +34,16 @@ p.resizepr {
 }
 /* second p in ChampPr */
 p.resize {
-  font-size: 13px;
+  font-size: 10px;
 }
 /* p of ChampSr */
 p.responsive {
-  font-size: 12px;
+  font-size: 11px;
 }
 p.footer {
   font-size: 14px;
 }
+/* h1 footer */
 p.footerName {
   font-size: 35px;
 }

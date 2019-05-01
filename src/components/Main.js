@@ -9,6 +9,7 @@ import ChampSr from "./ChampSr";
 
 import Gallery from "./Gallery";
 import Footer from "./Footer";
+import Presentation from "./Presentation";
 
 class Main extends Component {
   render() {
@@ -17,6 +18,7 @@ class Main extends Component {
         <NavbarTop />
         <ImageHeader />
         <ImageParallaxReact />
+        <Presentation />
         <ChampPr />
         <ChampSr />
         <Gallery />

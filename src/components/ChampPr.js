@@ -8,7 +8,7 @@ const ChampPr = () => {
     <div>
       <Row>
         <Col>
-          <div style={{ marginBottom: "6%" }} id="Nos vins" />
+          {/* <div style={{ marginBottom: "6%" }} id="Nos vins" />
           <h1
             style={{
               fontSize: "50px",
@@ -17,7 +17,7 @@ const ChampPr = () => {
             }}
           >
             Nos Vins
-          </h1>
+          </h1> */}
           <h2
             style={{
               fontSize: "25px",
