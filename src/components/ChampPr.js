@@ -46,8 +46,8 @@ const ChampPr = () => {
         >
           <div>
             <h2
+              className="titrepr"
               style={{
-                fontSize: "28px",
                 color: "#d2d441",
                 marginTop: "2%",
                 marginBottom: "3%",
@@ -62,7 +62,8 @@ const ChampPr = () => {
             <p
               className="resizepr"
               style={{
-                textAlign: "center"
+                textAlign: "center",
+                marginTop: "5%"
               }}
             >
               Un ensemblage complexe <br /> <br />
@@ -75,33 +76,29 @@ const ChampPr = () => {
               <strong>5g</strong> de vin presque nature, un chardonnay
               <br /> vrai sans pudeur
             </p>
-            <div
-              style={{
-                marginLeft: "auto",
-                marginRight: "auto",
-                width: "210px"
-              }}
-            >
-              <img
-                src="/image/brut.png"
-                alt="brut"
-                style={{
-                  width: "120px",
-                  height: "80px",
-                  float: "left"
-                }}
-              />
+            <div>
               <p
                 className="resize"
                 style={{
                   color: "#d2d441",
-                  transform: "rotate(-10deg)",
-                  marginLeft: "125px"
+                  textAlign: "center"
                 }}
               >
-                Vivacité & <br />
-                Minéralité
+                Vivacité & Minéralité
               </p>
+            </div>
+            <div>
+              <img
+                src="/image/brut.png"
+                alt="brut"
+                style={{
+                  width: "150px",
+                  height: "100px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
+                }}
+              />
             </div>
           </div>
         </Col>
@@ -130,8 +127,8 @@ const ChampPr = () => {
         >
           <div style={{ marginTop: "35px" }}>
             <h2
+              className="titrepr"
               style={{
-                fontSize: "28px",
                 color: "#d65829",
                 marginTop: "2%",
                 marginBottom: "3%",
@@ -145,7 +142,8 @@ const ChampPr = () => {
             <p
               className="resizepr"
               style={{
-                textAlign: "center"
+                textAlign: "center",
+                marginTop: "5%"
               }}
             >
               Issu d'une année spécifique. <br />
@@ -158,33 +156,29 @@ const ChampPr = () => {
               <br /> Un équilibre entre
               <br />
             </p>
-            <div
-              style={{
-                marginLeft: "auto",
-                marginRight: "auto",
-                width: "210px"
-              }}
-            >
-              <img
-                src="/image/BrutMillésimé.png"
-                alt="Brut Millésimé"
-                style={{
-                  width: "120px",
-                  height: "80px",
-                  float: "left"
-                }}
-              />
+            <div>
               <p
                 className="resize"
                 style={{
                   color: "#d2d441",
-                  transform: "rotate(-10deg)",
-                  marginLeft: "122px"
+                  textAlign: "center"
                 }}
               >
-                Fraîcheur & <br />
-                Richesse
+                Fraîcheur & Richesse
               </p>
+            </div>
+            <div>
+              <img
+                src="/image/BrutMillésimé.png"
+                alt="Brut Millésimé"
+                style={{
+                  width: "150px",
+                  height: "100px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
+                }}
+              />
             </div>
           </div>
         </Col>
@@ -213,8 +207,8 @@ const ChampPr = () => {
         >
           <div style={{ marginTop: "35px" }}>
             <h2
+              className="titrepr"
               style={{
-                fontSize: "28px",
                 color: "#000000",
                 marginTop: "2%",
                 marginBottom: "3%",
@@ -228,7 +222,8 @@ const ChampPr = () => {
             <p
               className="resizepr"
               style={{
-                textAlign: "center"
+                textAlign: "center",
+                marginTop: "5%"
               }}
             >
               Des vieilles vignes de chardonnay <br />
@@ -243,33 +238,29 @@ const ChampPr = () => {
               <br />
               et les fruits compotés
             </p>
-            <div
-              style={{
-                marginLeft: "auto",
-                marginRight: "auto",
-                width: "175px"
-              }}
-            >
+            <div>
+              <p
+                className="resize"
+                style={{
+                  color: "#000000",
+                  textAlign: "center"
+                }}
+              >
+                Finesse & Structure
+              </p>
+            </div>
+            <div>
               <img
                 src="/image/réserve.png"
                 alt="Brut Réserve"
                 style={{
                   width: "90px",
-                  height: "120px",
-                  float: "left"
+                  height: "110px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
                 }}
               />
-              <p
-                className="resize"
-                style={{
-                  color: "#000000",
-                  transform: "rotate(-10deg)",
-                  marginLeft: "94px"
-                }}
-              >
-                Finesse & <br />
-                Structure
-              </p>
             </div>
           </div>
         </Col>
@@ -298,8 +289,8 @@ const ChampPr = () => {
         >
           <div style={{ marginTop: "35px" }}>
             <h2
+              className="titrepr"
               style={{
-                fontSize: "28px",
                 color: "#584764",
                 marginTop: "2%",
                 marginBottom: "3%",
@@ -313,7 +304,8 @@ const ChampPr = () => {
             <p
               className="resizepr"
               style={{
-                textAlign: "center"
+                textAlign: "center",
+                marginTop: "5%"
               }}
             >
               L'elegace du Mesnil lié à la finesse
@@ -329,6 +321,17 @@ const ChampPr = () => {
               <br />
               et le nouveau
             </p>
+            <div>
+              <p
+                className="resize"
+                style={{
+                  color: "#584764",
+                  textAlign: "center"
+                }}
+              >
+                Complexité & Savoir-faire
+              </p>
+            </div>
             <div
               style={{
                 marginLeft: "auto",
@@ -341,21 +344,12 @@ const ChampPr = () => {
                 alt="Esprit d'Auteur"
                 style={{
                   width: "90px",
-                  height: "120px",
-                  float: "left"
+                  height: "110px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
                 }}
               />
-              <p
-                className="resize"
-                style={{
-                  color: "#584764",
-                  marginLeft: "94px",
-                  transform: "rotate(-10deg)"
-                }}
-              >
-                Complexité & <br />
-                Savoir-faire
-              </p>
             </div>
           </div>
         </Col>
@@ -384,8 +378,8 @@ const ChampPr = () => {
         >
           <div style={{ marginTop: "35px" }}>
             <h2
+              className="titrepr"
               style={{
-                fontSize: "28px",
                 color: "#b83940",
                 marginTop: "2%",
                 marginBottom: "3%",
@@ -399,7 +393,8 @@ const ChampPr = () => {
             <p
               className="resizepr"
               style={{
-                textAlign: "center"
+                textAlign: "center",
+                marginTop: "5%"
               }}
             >
               Notre leitmotiv sauvegarder
@@ -416,6 +411,17 @@ const ChampPr = () => {
               <br />
               en terrasse au soleil
             </p>
+            <div>
+              <p
+                className="resize"
+                style={{
+                  color: "#b83940",
+                  textAlign: "center"
+                }}
+              >
+                Délicatesse & Elégance
+              </p>
+            </div>
             <div
               style={{
                 marginLeft: "auto",
@@ -427,22 +433,13 @@ const ChampPr = () => {
                 src="/image/rosé.png"
                 alt="Brut rosé"
                 style={{
-                  width: "115px",
-                  height: "80px",
-                  float: "left"
+                  width: "150px",
+                  height: "100px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
                 }}
               />
-              <p
-                className="resize"
-                style={{
-                  color: "#b83940",
-                  marginLeft: "100px",
-                  transform: "rotate(-10deg)"
-                }}
-              >
-                Délicatesse & <br />
-                Elégance
-              </p>
             </div>
           </div>
         </Col>

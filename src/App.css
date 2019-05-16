@@ -28,13 +28,25 @@ h1 {
 p {
   font-size: 16px;
 }
+/* titre h2 in ChampPr */
+h2.titrepr {
+  font-size: 28px;
+}
 /* p of ChampPr */
 p.resizepr {
-  font-size: 14px;
+  font-size: 13px;
 }
 /* second p in ChampPr */
 p.resize {
-  font-size: 10px;
+  font-size: 14px;
+}
+/* description in ChampSr */
+p.resizesr {
+  font-size: 13px;
+}
+/* h2 of ChampSr */
+h2.titresr {
+  font-size: 26px;
 }
 /* p of ChampSr */
 p.responsive {
@@ -54,11 +66,20 @@ p.footerName {
   p {
     font-size: 14px;
   }
+  h2.titrepr {
+    font-size: 24px;
+  }
   p.resizepr {
     font-size: 12px;
   }
   p.resize {
-    font-size: 11px;
+    font-size: 14px;
+  }
+  p.resizesr {
+    font-size: 12px;
+  }
+  h2.titresr {
+    font-size: 24px;
   }
   p.responsive {
     font-size: 11px;
@@ -75,14 +96,23 @@ p.footerName {
   p {
     font-size: 12px;
   }
+  h2.titrepr {
+    font-size: 22px;
+  }
   p.resizepr {
-    font-size: 10px;
+    font-size: 11px;
+  }
+  p.resizesr {
+    font-size: 11px;
+  }
+  h2.titresr {
+    font-size: 22px;
   }
   p.responsive {
     font-size: 10px;
   }
   p.resize {
-    font-size: 9px;
+    font-size: 13px;
   }
   p.footer {
     font-size: 12px;
@@ -96,6 +126,9 @@ p.footerName {
   p {
     font-size: 12px;
   }
+  h2.titrepr {
+    font-size: 20px;
+  }
   p.resizepr {
     font-size: 8px;
   }
@@ -103,6 +136,12 @@ p.footerName {
     font-size: 9px;
   }
   p.resize {
+    font-size: 11px;
+  }
+  h2.titresr {
+    font-size: 20px;
+  }
+  p.resizesr {
     font-size: 9px;
   }
   p.footer {
