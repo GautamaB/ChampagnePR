@@ -18,8 +18,8 @@ class Main extends Component {
         <NavbarTop />
         <ImageHeader />
         <ImageParallaxReact />
-        <Presentation />
         <ChampPr />
+        <Presentation />
         <ChampSr />
         <Gallery />
         <Footer />

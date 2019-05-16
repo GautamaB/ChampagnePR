@@ -6,19 +6,86 @@ import { Row, Col } from "reactstrap";
 const bouteille = () => {
   return (
     <div>
-      <Row>
-        <Col>
-          <h2
-            style={{
-              fontSize: "25px",
-              textAlign: "center",
-              color: "#D5B23C",
-              marginTop: "5%",
-              marginBottom: "2%"
-            }}
+      <Row style={{ backgroundColor: "#fff6db" }}>
+        <Col xs={{ size: 6 }} md={{ size: 8 }}>
+          <Parallax
+            bgImage={"image/Mixolydien.png"}
+            bgImageAlt="Mixolydien n°14"
+            strength={200}
           >
-            Les Bouteilles de Stéphane Regnault
-          </h2>
+            <div style={{ height: 400 }} />
+          </Parallax>
+        </Col>
+        <Col
+          xs={{ size: 5 }}
+          md={{ size: 3 }}
+          style={{
+            color: "black",
+            marginLeft: "3%"
+          }}
+        >
+          <div style={{ marginTop: "35px" }}>
+            <h2
+              className="titresr"
+              style={{
+                color: "#091176",
+                marginBottom: "3%",
+                textAlign: "center",
+                transform: "rotate(-5deg)"
+              }}
+              id="titreChamp"
+            >
+              Mixolydien N°14
+            </h2>
+            <p
+              className="responsive"
+              style={{
+                textAlign: "center"
+              }}
+            >
+              <strong>Cépage : </strong>chardonnay.
+              <br />
+              <strong>Parcelle :</strong> Le Moulin Oger — Grand Cru
+              <br />
+              Plein Est, pente douce 2%. Sol superficiel bien
+              <br />
+              structuré par un enherbement naturel.
+              <br />
+              Horizon intermédiaire plus riche en craie assez profond.
+              <br />
+              Sous-sol, craie soyeuse fortement fracturé.
+            </p>
+            <div>
+              <p
+                className="resizesr"
+                style={{
+                  color: "#091176",
+                  textAlign: "center"
+                }}
+              >
+                Équilibré, Réfléchi & Soyeux
+              </p>
+            </div>
+            <div
+              style={{
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "175px"
+              }}
+            >
+              <img
+                src="/image/Mixolydien 14.png"
+                alt="Mixolydien 14"
+                style={{
+                  width: "85px",
+                  height: "120px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
+                }}
+              />
+            </div>
+          </div>
         </Col>
       </Row>
       <Row style={{ backgroundColor: "#fff6db" }}>
@@ -41,8 +108,8 @@ const bouteille = () => {
         >
           <div style={{ marginTop: "35px" }}>
             <h2
+              className="titresr"
               style={{
-                fontSize: "28px",
                 color: "#091176",
                 marginBottom: "3%",
                 textAlign: "center",
@@ -73,6 +140,17 @@ const bouteille = () => {
               <br />
               Sous-sol, craie très pure et compact.
             </p>
+            <div>
+              <p
+                className="resizesr"
+                style={{
+                  color: "#091176",
+                  textAlign: "center"
+                }}
+              >
+                Exigeant, Délicat & Complexe
+              </p>
+            </div>
             <div
               style={{
                 marginLeft: "auto",
@@ -84,22 +162,13 @@ const bouteille = () => {
                 src="/image/Dorien 14.png"
                 alt="Dorien 14"
                 style={{
-                  width: "100px",
-                  height: "140px",
-                  float: "left"
+                  width: "85px",
+                  height: "120px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
                 }}
               />
-              <p
-                className="resize"
-                style={{
-                  color: "#091176",
-                  transform: "rotate(-10deg)",
-                  marginLeft: "110px"
-                }}
-              >
-                Exigeant, Délicat
-                <br /> & Complexe
-              </p>
             </div>
           </div>
         </Col>
@@ -124,8 +193,8 @@ const bouteille = () => {
         >
           <div style={{ marginTop: "35px" }}>
             <h2
+              className="titresr"
               style={{
-                fontSize: "28px",
                 color: "#091176",
                 marginBottom: "3%",
                 textAlign: "center",
@@ -154,6 +223,17 @@ const bouteille = () => {
               Horizon intermédiaire peu riche en craie. <br />
               Sous-sol, craie compact légèrement fracturé.
             </p>
+            <div>
+              <p
+                className="resizesr"
+                style={{
+                  color: "#091176",
+                  textAlign: "center"
+                }}
+              >
+                Rêveur, Joyeux & Expressif
+              </p>
+            </div>
             <div
               style={{
                 marginLeft: "auto",
@@ -165,102 +245,13 @@ const bouteille = () => {
                 src="/image/Lydien 14.png"
                 alt="Lydien 14"
                 style={{
-                  width: "100px",
-                  height: "140px",
-                  float: "left"
+                  width: "85px",
+                  height: "120px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
                 }}
               />
-              <p
-                className="resize"
-                style={{
-                  color: "#091176",
-                  marginLeft: "110px",
-                  transform: "rotate(-10deg)"
-                }}
-              >
-                Rêveur, Joyeux
-                <br /> & Expressif
-              </p>
-            </div>
-          </div>
-        </Col>
-      </Row>
-      <Row style={{ backgroundColor: "#fff6db" }}>
-        <Col xs={{ size: 6 }} md={{ size: 8 }}>
-          <Parallax
-            bgImage={"image/Mixolydien.png"}
-            bgImageAlt="Mixolydien n°14"
-            strength={200}
-          >
-            <div style={{ height: 400 }} />
-          </Parallax>
-        </Col>
-        <Col
-          xs={{ size: 5 }}
-          md={{ size: 3 }}
-          style={{
-            color: "black",
-            marginLeft: "3%"
-          }}
-        >
-          <div style={{ marginTop: "35px" }}>
-            <h2
-              style={{
-                fontSize: "28px",
-                color: "#091176",
-                marginBottom: "3%",
-                textAlign: "center",
-                transform: "rotate(-5deg)"
-              }}
-              id="titreChamp"
-            >
-              Mixolydien N°14
-            </h2>
-            <p
-              className="responsive"
-              style={{
-                textAlign: "center"
-              }}
-            >
-              <strong>Cépage : </strong>chardonnay.
-              <br />
-              <strong>Parcelle :</strong> Le Moulin Oger — Grand Cru
-              <br />
-              Plein Est, pente douce 2%. Sol superficiel bien
-              <br />
-              structuré par un enherbement naturel.
-              <br />
-              Horizon intermédiaire plus riche en craie assez profond.
-              <br />
-              Sous-sol, craie soyeuse fortement fracturé.
-            </p>
-            <div
-              style={{
-                marginLeft: "auto",
-                marginRight: "auto",
-                width: "175px"
-              }}
-            >
-              <img
-                src="/image/Mixolydien 14.png"
-                alt="Mixolydien 14"
-                style={{
-                  width: "100px",
-                  height: "140px",
-                  float: "left"
-                }}
-              />
-              <p
-                className="resize"
-                style={{
-                  color: "#091176",
-                  marginLeft: "110px",
-                  transform: "rotate(-10deg)"
-                }}
-              >
-                Équilibré, Réfléchi
-                <br /> & Soyeux
-              </p>
             </div>
           </div>
         </Col>

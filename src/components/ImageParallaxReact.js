@@ -277,7 +277,6 @@ const ImageParallaxReact = () => (
             opacity: "0.3",
             width: "100px",
             height: "100px",
-            marginTop: "12%",
             marginLeft: "83%",
             transform: "rotate(-30deg)"
           }}
