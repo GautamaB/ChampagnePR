@@ -8,17 +8,17 @@ const bouteille = () => {
     <div>
       <Row>
         <Col>
-          <h2
+          {/* <h2
             style={{
               fontSize: "25px",
               textAlign: "center",
               color: "#D5B23C",
-              marginTop: "5%",
-              marginBottom: "2%"
+              marginTop: "3%",
+              marginBottom: "3%"
             }}
           >
             Les Bouteilles de Stéphane Regnault
-          </h2>
+          </h2> */}
         </Col>
       </Row>
       <Row style={{ backgroundColor: "#fff6db" }}>

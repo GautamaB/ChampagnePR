@@ -7,23 +7,23 @@ const Presentation = () => {
     <div>
       <Row>
         <Col>
-          <div style={{ marginBottom: "6%" }} id="Nos vins" />
-          <h1
-            style={{
-              fontSize: "50px",
-              textAlign: "center",
-              color: "#D5B23C"
-            }}
-          >
-            Nos Vins
-          </h1>
           <h2
             style={{
               fontSize: "25px",
               textAlign: "center",
               color: "#D5B23C",
-              marginTop: "1%",
-              marginBottom: "1%"
+              marginTop: "3%"
+            }}
+          >
+            Les Bouteilles de Stéphane Regnault
+          </h2>
+          <h2
+            style={{
+              fontSize: "25px",
+              textAlign: "center",
+              color: "#D5B23C",
+              marginTop: "2%",
+              marginBottom: "3%"
             }}
           >
             Présentation
@@ -37,8 +37,8 @@ const Presentation = () => {
         }}
       >
         <Col
-          xs={{ size: 8 }}
-          md={{ size: 8 }}
+          xs={{ size: 6 }}
+          md={{ size: 7 }}
           style={{
             color: "black"
           }}
@@ -47,9 +47,8 @@ const Presentation = () => {
             className="resizepr"
             style={{
               textAlign: "justify",
-              marginTop: "10%",
               color: "#000000",
-              paddingLeft: "12%"
+              margin: "10% 8% 0"
             }}
           >
             L'idée de la vinification sur ces cuvées est la mise en avant du
@@ -76,18 +75,16 @@ const Presentation = () => {
             année.
           </p>
         </Col>
-        <Col xs={{ size: 4 }} md={{ size: 4 }}>
-          <div>
-            <img
-              src="image/18.jpg"
-              alt="cuverie"
-              style={{
-                width: "100%",
-                height: "100%",
-                position: "absolute"
-              }}
-            />
-          </div>
+        <Col xs={{ size: 5 }} md={{ size: 5 }} style={{ paddingLeft: "0%" }}>
+          <img
+            src="image/18.jpg"
+            alt="cuverie"
+            style={{
+              width: "115%",
+              height: "100%",
+              position: "absolute"
+            }}
+          />
         </Col>
       </Row>
     </div>
